@@ -1,0 +1,320 @@
+/* ============================================================
+   QUILL — Quintet of Intelligent LLMs for Learning
+   Shared visual identity (landing + deck)
+
+   Built on top of Comillas spacing/structural conventions,
+   with QUILL's own palette and typography.
+   ============================================================ */
+
+@import url("https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;0,6..72,600;0,6..72,700;1,6..72,400;1,6..72,500&family=IBM+Plex+Sans:wght@300;400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap");
+
+:root {
+  /* ------------------------------------------------------------
+     SURFACES — institutional white. No warmth anywhere.
+     ------------------------------------------------------------ */
+  --paper:        #FFFFFF;   /* primary page background */
+  --paper-2:      #F7F7F8;   /* Surface — alternating sections, large cards */
+  --paper-3:      #FFFFFF;   /* lifted card surface (white + 1px border) */
+  --elevated:     #FFFFFF;   /* form fields, code blocks */
+  --ink:          #0F0F11;   /* Ink — body text, headings (cool near-black) */
+  --ink-2:        #3F3F46;   /* Charcoal — secondary headers, body alt */
+  --ink-3:        #6B6B73;   /* Slate — secondary text, captions, metadata */
+  --ink-4:        #9CA3AF;   /* Mute — metadata, tertiary info */
+  --line:         #E5E5E7;   /* Border — dividers, fine lines */
+  --line-soft:    #EFEFF1;   /* softer dividers */
+  --night:        #18181B;   /* cool dark for inverse surfaces */
+  --night-2:      #27272A;
+  --on-night:     #FFFFFF;
+  --on-night-2:   #A1A1AA;
+
+  /* ------------------------------------------------------------
+     ACCENT — Sogang Cardinal, the institutional anchor.
+     Precious: wordmark, primary CTAs, A3 (Language) node.
+     ------------------------------------------------------------ */
+  --accent:        #A4123A;   /* Sogang Cardinal */
+  --accent-deep:   #7A0E2B;   /* Cardinal Deep — hover, heavy emphasis */
+  --accent-soft:   #FBEEF1;   /* faintest cardinal wash for A3 surfaces */
+
+  /* ------------------------------------------------------------
+     BRASS — a nod to the Sogang crest crown. Decorative only:
+     a fine line, a small divider. Never as a background.
+     ------------------------------------------------------------ */
+  --brass:         #C9A961;
+  --brass-deep:    #A6873F;
+
+  /* Legacy aliases (kept so older references still resolve) */
+  --sage:          #6B6B73;
+  --stone:         #E5E5E7;
+  --success:       #5C7A5C;
+  --warning:       #C9A961;
+
+  /* ------------------------------------------------------------
+     AGENT TINT — pipeline must NOT be a rainbow.
+     A1, A2, A4, A5 render in Ink. Only A3 carries Cardinal.
+     A3 is the differentiator — produces the original→corrected
+     edits that survive verbatim into the final output.
+     ------------------------------------------------------------ */
+  --agent-1: var(--ink);
+  --agent-2: var(--ink);
+  --agent-3: var(--accent);  /* A3 Language — the differentiator */
+  --agent-4: var(--ink);
+  --agent-5: var(--ink);
+
+  /* ------------------------------------------------------------
+     TYPOGRAPHY
+     Display: Newsreader (literary serif, contemporary).
+     Body: IBM Plex Sans (humanist, lab-academic, not Inter).
+     Mono: IBM Plex Mono (code, schemas).
+     ------------------------------------------------------------ */
+  --font-serif: "Newsreader", "Source Serif 4", Georgia, "Times New Roman", serif;
+  --font-sans:  "IBM Plex Sans", "Söhne", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  --font-mono:  "IBM Plex Mono", ui-monospace, "SF Mono", Menlo, Consolas, monospace;
+
+  /* Scale */
+  --text-xs:    12px;
+  --text-sm:    13px;
+  --text-base:  16px;
+  --text-md:    18px;
+  --text-lg:    20px;
+  --text-xl:    24px;
+  --text-2xl:   30px;
+  --text-3xl:   38px;
+  --text-4xl:   48px;
+  --text-5xl:   60px;
+  --text-6xl:   80px;
+  --text-7xl:   104px;
+
+  --leading-tight:   1.05;
+  --leading-snug:    1.22;
+  --leading-normal:  1.48;
+  --leading-relaxed: 1.65;
+
+  --track-tight:    -0.018em;
+  --track-normal:   0em;
+  --track-wide:     0.04em;
+  --track-eyebrow:  0.22em;
+
+  /* Spacing (4-px base, matches Comillas) */
+  --s-1:  4px;  --s-2:  8px;  --s-3: 12px;  --s-4: 16px;
+  --s-5: 20px;  --s-6: 24px;  --s-8: 32px;  --s-10: 40px;
+  --s-12: 48px; --s-16: 64px; --s-20: 80px; --s-24: 96px;
+  --s-32: 128px; --s-40: 160px;
+
+  /* Radii — restrained */
+  --r-sm:  2px;
+  --r-md:  3px;
+  --r-lg:  6px;
+
+  /* Shadows — minimal */
+  --shadow-1: 0 1px 2px rgba(20, 24, 28, 0.05);
+  --shadow-2: 0 2px 8px rgba(20, 24, 28, 0.06), 0 1px 2px rgba(20, 24, 28, 0.04);
+
+  /* Motion */
+  --ease:     cubic-bezier(0.2, 0, 0, 1);
+  --dur-fast: 140ms;
+  --dur:      220ms;
+
+  /* Layout */
+  --container: 1180px;
+  --gutter:    24px;
+}
+
+/* Accent variants — cardinal is canonical. Alternates exist for exploration
+   but the institutional design ships on cardinal. */
+:root[data-accent="cardinal"]   { --accent: #A4123A; --accent-deep: #7A0E2B; --accent-soft: #FBEEF1; }
+:root[data-accent="brass"]      { --accent: #C9A961; --accent-deep: #A6873F; --accent-soft: #F6EFD8; }
+:root[data-accent="sage"]       { --accent: #6B6B73; --accent-deep: #3F3F46; --accent-soft: #EFEFF1; }
+/* Legacy keys kept so any persisted Tweak state still resolves to Cardinal. */
+:root[data-accent="terracotta"] { --accent: #A4123A; --accent-deep: #7A0E2B; --accent-soft: #FBEEF1; }
+:root[data-accent="slate"]      { --accent: #6B6B73; --accent-deep: #3F3F46; --accent-soft: #EFEFF1; }
+
+/* A3's accent always tracks the chosen accent */
+:root[data-accent] { --agent-3: var(--accent); }
+
+/* ============================================================
+   BASE
+   ============================================================ */
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; }
+html {
+  background: var(--paper);
+  color: var(--ink-2);
+  font-family: var(--font-sans);
+  font-size: var(--text-base);
+  line-height: var(--leading-normal);
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+
+::selection { background: var(--accent); color: var(--paper); }
+
+/* Warm-shift the night text colour so links on dark sit on a parchment-warm white */
+
+/* ============================================================
+   TYPOGRAPHY HELPERS
+   ============================================================ */
+.display {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(56px, 11vw, 184px);
+  line-height: 0.94;
+  letter-spacing: -0.035em;
+  color: var(--ink);
+  font-feature-settings: "ss01" on;
+}
+
+.h1 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(36px, 5vw, var(--text-5xl));
+  line-height: var(--leading-tight);
+  letter-spacing: var(--track-tight);
+  color: var(--ink);
+  margin: 0;
+}
+
+.h2 {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(28px, 3.4vw, var(--text-3xl));
+  line-height: var(--leading-snug);
+  letter-spacing: var(--track-tight);
+  color: var(--ink);
+  margin: 0;
+}
+
+.h3 {
+  font-family: var(--font-serif);
+  font-weight: 500;
+  font-size: var(--text-xl);
+  line-height: var(--leading-snug);
+  color: var(--ink);
+  margin: 0;
+}
+
+.eyebrow {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--track-eyebrow);
+  color: var(--ink-3);
+  display: inline-block;
+  white-space: nowrap;
+}
+
+.eyebrow .dot {
+  display: inline-block;
+  width: 6px; height: 6px;
+  background: var(--brass);
+  border-radius: 50%;
+  margin-right: 8px;
+  vertical-align: 1px;
+}
+
+.lead {
+  font-family: var(--font-serif);
+  font-weight: 400;
+  font-size: clamp(20px, 2vw, 26px);
+  line-height: 1.42;
+  color: var(--ink-2);
+  letter-spacing: -0.005em;
+}
+
+.body {
+  font-family: var(--font-sans);
+  font-size: 17px;
+  font-weight: 400;
+  line-height: var(--leading-relaxed);
+  color: var(--ink);
+  text-wrap: pretty;
+}
+
+.meta {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: var(--text-xs);
+  text-transform: uppercase;
+  letter-spacing: var(--track-eyebrow);
+  color: var(--ink-3);
+}
+
+.mono {
+  font-family: var(--font-mono);
+  font-feature-settings: "ss02" on;
+}
+
+/* signature rule — small editorial mark, brass not cardinal
+   so we don't burn the cardinal allotment on a hairline. */
+.rule {
+  display: block;
+  width: 56px;
+  height: 2px;
+  background: var(--brass);
+  border: 0;
+}
+
+a {
+  color: var(--ink);
+  text-decoration: underline;
+  text-decoration-thickness: 1px;
+  text-underline-offset: 4px;
+  text-decoration-color: var(--ink-4);
+  transition: color var(--dur-fast) var(--ease), text-decoration-color var(--dur-fast) var(--ease);
+}
+a:hover { color: var(--accent); text-decoration-color: var(--accent); }
+
+code, kbd, samp {
+  font-family: var(--font-mono);
+  font-size: 0.92em;
+  background: var(--paper-2);
+  padding: 1px 6px;
+  border-radius: var(--r-sm);
+  color: var(--ink);
+}
+
+/* ============================================================
+   LAYOUT
+   ============================================================ */
+.container {
+  max-width: var(--container);
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+.container-wide {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 var(--gutter);
+}
+
+/* ============================================================
+   BUTTON
+   ============================================================ */
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 20px;
+  font-family: var(--font-sans);
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.01em;
+  border: 1px solid var(--ink);
+  background: var(--ink);
+  color: var(--paper);
+  border-radius: var(--r-md);
+  text-decoration: none;
+  cursor: pointer;
+  transition: background var(--dur-fast) var(--ease), color var(--dur-fast) var(--ease), border-color var(--dur-fast) var(--ease);
+}
+.btn:hover { background: var(--accent-deep); border-color: var(--accent-deep); color: var(--paper); }
+.btn .arr { transition: transform var(--dur-fast) var(--ease); }
+.btn:hover .arr { transform: translateX(3px); }
+
+.btn-ghost {
+  background: transparent;
+  color: var(--ink);
+  border: 1px solid var(--line);
+}
+.btn-ghost:hover { background: transparent; color: var(--accent); border-color: var(--accent); }

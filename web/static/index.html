@@ -1,0 +1,608 @@
+<!DOCTYPE html>
+<html lang="en" data-accent="cardinal">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>QUILL — Quintet of Intelligent LLMs for Learning</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+  <link rel="stylesheet" href="/static/landing.css" />
+  <link rel="stylesheet" href="/static/app.css" />
+</head>
+<body data-screen-label="QUILL landing">
+
+  <!-- ─────────────── Nav ─────────────── -->
+  <nav class="nav" id="nav">
+    <div class="container nav-inner">
+      <a class="nav-mark" href="#top" aria-label="QUILL home">
+        <span style="display:inline-flex;align-items:center;gap:10px;">
+          <svg width="26" height="26" viewBox="0 0 64 64" fill="none" aria-hidden="true" style="color:var(--ink);">
+            <path d="M 4 10 C 18 10, 28 22, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M 4 21 C 18 21, 28 27, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M 4 32 L 36 32"               stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M 4 43 C 18 43, 28 37, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M 4 54 C 18 54, 28 42, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M 36 32 L 58 32"              stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <circle cx="58" cy="32" r="1.6" fill="currentColor"/>
+          </svg>
+          <span style="font-family:var(--font-serif);font-weight:500;font-size:20px;letter-spacing:0.04em;color:var(--ink);">QUILL</span>
+        </span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="#problem">The problem</a></li>
+        <li><a href="#architecture">Architecture</a></li>
+        <li><a href="#experiment">Experiment</a></li>
+        <li><a href="#run">Run it</a></li>
+      </ul>
+      <a class="nav-cta" href="https://github.com/iqueipopg/QUILL" target="_blank" rel="noopener">
+        <span>GitHub</span>
+        <svg width="13" height="13" viewBox="0 0 13 13" fill="none" aria-hidden="true">
+          <path d="M 3 10 L 10 3 M 10 3 L 5 3 M 10 3 L 10 8" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </nav>
+
+  <main>
+
+  <!-- ─────────────── Hero ─────────────── -->
+  <header class="hero" id="top">
+    <div class="container hero-grid">
+      <div class="hero-text">
+        <div class="hero-meta">
+          <span class="eyebrow"><span class="dot"></span>Research project · June 2026</span>
+          <span class="hero-meta__line">Sogang University × Universidad Pontificia Comillas</span>
+        </div>
+
+        <h1 class="display hero-display" aria-label="QUILL">QUILL<span class="hero-display__dot">.</span></h1>
+
+        <p class="hero-subtitle">Quintet of Intelligent LLMs for Learning.</p>
+
+        <hr class="rule hero-rule" />
+
+        <p class="lead hero-lead">
+          QUILL decomposes essay feedback into five specialised LLM agents — each operating under a
+          focused prompt, communicating via strict JSON schemas — instead of asking one model to
+          evaluate structure, content and language all at once.
+        </p>
+
+        <div class="hero-ctas">
+          <a class="btn" href="#run">
+            Try it live
+            <span class="arr" aria-hidden="true">→</span>
+          </a>
+          <a class="btn btn-ghost" href="#architecture">Read the architecture</a>
+        </div>
+      </div>
+
+      <div class="hero-figure" aria-hidden="true">
+        <div class="hero-figure__mark">
+          <svg width="220" height="220" viewBox="0 0 64 64" fill="none" style="color:var(--ink);display:block;">
+            <path d="M 4 10 C 18 10, 28 22, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M 4 21 C 18 21, 28 27, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M 4 32 L 36 32"               stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M 4 43 C 18 43, 28 37, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M 4 54 C 18 54, 28 42, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+            <path d="M 36 32 L 58 32"              stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+            <circle cx="58" cy="32" r="1.6" fill="currentColor"/>
+          </svg>
+        </div>
+        <div class="hero-figure__caption">
+          <span class="meta">QUILL mark</span>
+          <span class="hero-figure__note">Five strokes converge into one — the visual thesis of the architecture.</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="container hero-strip">
+      <div class="hero-strip__cell">
+        <span class="meta">Authors</span>
+        <span>Queipo de Llano · Ha · Prieto Oliveras · Lee</span>
+      </div>
+      <div class="hero-strip__cell">
+        <span class="meta">Course</span>
+        <span>AI Applied Education Theories &amp; Implementation</span>
+      </div>
+      <div class="hero-strip__cell">
+        <span class="meta">Status</span>
+        <span>Final experiment run · survey in collection</span>
+      </div>
+      <div class="hero-strip__cell">
+        <span class="meta">Backend</span>
+        <span>Groq · Gemini · local Qwen2.5-7B</span>
+      </div>
+    </div>
+  </header>
+
+  <!-- ─────────────── Problem ─────────────── -->
+  <section class="section" id="problem">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow"><span class="dot"></span>The problem</span>
+        <h2 class="h1">Single-prompt feedback dissolves under its own ambition.</h2>
+      </div>
+
+      <div class="problem-grid">
+        <div class="problem-prose">
+          <p class="body">
+            Ask one large language model to evaluate structure, content and language all at once and the
+            feedback gets thinner, not richer. The model averages its attention across dimensions, hedges,
+            and produces the kind of paragraph that <em>sounds</em> like feedback without committing to a
+            specific change the student can act on.
+          </p>
+          <p class="body">
+            The result is consistently generic prose — fluent, kind, and forgettable.
+            Concrete errors that a teacher would mark in the margin get absorbed into the discourse,
+            if they appear at all. The rubric goes in, but the response that comes out has no scale
+            left to defend.
+          </p>
+        </div>
+
+        <aside class="problem-quote" aria-label="An example of generic single-prompt feedback">
+          <div class="problem-quote__tag">
+            <span class="meta">Condition A · single-prompt baseline</span>
+          </div>
+          <blockquote>
+            "You have written a heartfelt and engaging essay about a person who significantly impacted
+            your life, and your story is well-structured and easy to follow. However, there are areas
+            where you can improve, particularly in <mark>vocabulary, sentence structure, and providing more specific examples</mark> to
+            support your arguments."
+          </blockquote>
+          <div class="problem-quote__note">
+            The kind of feedback a student can read three times and still not know what to change first.
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── Architecture (pipeline diagram) ─────────────── -->
+  <section class="section" id="architecture">
+    <div class="container-wide">
+      <div class="section-head section-head--center">
+        <span class="eyebrow"><span class="dot"></span>The architecture</span>
+        <h2 class="h1" style="max-width:880px;margin:0 auto;">Five specialised agents, one feedback document.</h2>
+        <p class="lead" style="max-width:760px;margin:0 auto;">
+          A sequential pipeline. The first three score independent dimensions; the fourth synthesises;
+          the fifth moderates. The list of original → corrected edits from A3 is preserved verbatim at
+          the end of the output instead of being absorbed into the synthesised prose.
+        </p>
+      </div>
+
+      <div class="pipeline" role="figure" aria-label="The five-agent QUILL pipeline">
+        <div class="pipeline-rail">
+          <span class="meta">Input · student essay + prompt</span>
+          <span class="meta">Output · single feedback document</span>
+        </div>
+
+        <div class="pipeline-row">
+
+          <div class="pipeline-node" tabindex="0">
+            <div class="pipeline-node__glyph">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                <path d="M 6 10 L 30 10" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M 6 17 L 22 17" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M 6 24 L 26 24" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M 6 31 L 18 31" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="pipeline-node__head">
+              <span class="pipeline-node__id">A1</span>
+              <span class="pipeline-node__name">Structure</span>
+            </div>
+            <div class="pipeline-node__role">Evaluates organisation, paragraph flow, transitions.</div>
+            <div class="pipeline-tooltip" role="tooltip">Operates on the whole essay. Returns a structured score plus prose notes on coherence and section balance.</div>
+          </div>
+
+          <div class="pipeline-arrow" aria-hidden="true">
+            <svg width="100%" height="14" viewBox="0 0 60 14" preserveAspectRatio="none">
+              <path d="M 0 7 L 54 7" stroke="currentColor" stroke-width="1"/>
+              <path d="M 54 3 L 60 7 L 54 11" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <div class="pipeline-node" tabindex="0">
+            <div class="pipeline-node__glyph">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                <path d="M 12 6 L 8 6 L 8 30 L 12 30" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 24 6 L 28 6 L 28 30 L 24 30" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 14 18 L 22 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="pipeline-node__head">
+              <span class="pipeline-node__id">A2</span>
+              <span class="pipeline-node__name">Content</span>
+            </div>
+            <div class="pipeline-node__role">Measures prompt adherence, thesis quality, argumentation depth.</div>
+            <div class="pipeline-tooltip" role="tooltip">Reads the assignment prompt and the essay together; scores how well the writer addresses the task.</div>
+          </div>
+
+          <div class="pipeline-arrow" aria-hidden="true">
+            <svg width="100%" height="14" viewBox="0 0 60 14" preserveAspectRatio="none">
+              <path d="M 0 7 L 54 7" stroke="currentColor" stroke-width="1"/>
+              <path d="M 54 3 L 60 7 L 54 11" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <div class="pipeline-node is-accent" tabindex="0">
+            <div class="pipeline-node__glyph">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                <path d="M 8 22 L 18 12 L 28 22" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/>
+                <path d="M 18 12 L 18 30" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="pipeline-node__head">
+              <span class="pipeline-node__id">A3</span>
+              <span class="pipeline-node__name">Language</span>
+            </div>
+            <div class="pipeline-node__role">Scores grammar, vocabulary, register — and emits original → corrected error pairs.</div>
+            <div class="pipeline-tooltip" role="tooltip">The differentiator. Produces a structured list of edits with error types that survive into the final output instead of being absorbed into prose.</div>
+          </div>
+
+          <div class="pipeline-arrow" aria-hidden="true">
+            <svg width="100%" height="14" viewBox="0 0 60 14" preserveAspectRatio="none">
+              <path d="M 0 7 L 54 7" stroke="currentColor" stroke-width="1"/>
+              <path d="M 54 3 L 60 7 L 54 11" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <div class="pipeline-node" tabindex="0">
+            <div class="pipeline-node__glyph">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                <path d="M 6 8 L 18 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M 30 8 L 18 18" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+                <path d="M 18 18 L 18 30" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <div class="pipeline-node__head">
+              <span class="pipeline-node__id">A4</span>
+              <span class="pipeline-node__name">Synthesizer</span>
+            </div>
+            <div class="pipeline-node__role">Merges the three evaluations into a coherent student-facing report.</div>
+            <div class="pipeline-tooltip" role="tooltip">Reads JSON outputs from A1/A2/A3 and produces a single human-readable feedback document.</div>
+          </div>
+
+          <div class="pipeline-arrow" aria-hidden="true">
+            <svg width="100%" height="14" viewBox="0 0 60 14" preserveAspectRatio="none">
+              <path d="M 0 7 L 54 7" stroke="currentColor" stroke-width="1"/>
+              <path d="M 54 3 L 60 7 L 54 11" stroke="currentColor" stroke-width="1" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </div>
+
+          <div class="pipeline-node" tabindex="0">
+            <div class="pipeline-node__glyph">
+              <svg width="36" height="36" viewBox="0 0 36 36" fill="none" aria-hidden="true">
+                <path d="M 6 8 L 30 8 L 22 18 L 22 28 L 14 28 L 14 18 Z" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+              </svg>
+            </div>
+            <div class="pipeline-node__head">
+              <span class="pipeline-node__id">A5</span>
+              <span class="pipeline-node__name">Moderator</span>
+            </div>
+            <div class="pipeline-node__role">Filters tone, bias, vagueness; produces the final text.</div>
+            <div class="pipeline-tooltip" role="tooltip">Final pass before delivery to the student. Strips evaluator artefacts, hedges, and any markers that could betray the system.</div>
+          </div>
+
+        </div>
+
+        <!-- A3 callout -->
+        <div class="pipeline-callout">
+          <div>
+            <div class="pipeline-callout__tag">
+              <span class="callout-dot"></span>
+              A3 — secret weapon
+            </div>
+            <div class="pipeline-callout__title">Specific corrections survive into the output.</div>
+            <div class="pipeline-callout__body">
+              A3 emits a structured array of <code>original → corrected</code> pairs with error types.
+              A4 preserves the list verbatim at the end of the report instead of melting it into prose —
+              so the student gets concrete edits, not generic advice.
+            </div>
+          </div>
+          <ul class="pipeline-callout__list">
+            <li>
+              <span class="mono o">Back in my senior high school time</span>
+              <span class="arr">→</span>
+              <span class="mono c">During my senior high school years</span>
+              <span class="type">word_choice</span>
+            </li>
+            <li>
+              <span class="mono o">causing my failure of every quiz</span>
+              <span class="arr">→</span>
+              <span class="mono c">causing me to fail every quiz</span>
+              <span class="type">grammar</span>
+            </li>
+            <li>
+              <span class="mono o">attending to cram schools</span>
+              <span class="arr">→</span>
+              <span class="mono c">attending cram schools</span>
+              <span class="type">grammar</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── Experiment (conditions) ─────────────── -->
+  <section class="section section--paper-2" id="experiment">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow"><span class="dot"></span>How we tested it</span>
+        <h2 class="h1">A three-condition controlled study, blind to the respondent.</h2>
+        <p class="lead">
+          We ran the same eight L2 English essays through three feedback sources, then shuffled the outputs
+          into blind labels for survey participants.
+        </p>
+      </div>
+
+      <div class="conditions">
+        <div class="condition">
+          <div class="condition__key">A</div>
+          <div class="condition__title h3">Single-prompt baseline</div>
+          <div class="condition__sub">Same model, one holistic prompt.</div>
+          <div class="condition__note meta">Architectural control — isolates the prompt-structure effect.</div>
+        </div>
+        <div class="condition is-accent">
+          <div class="condition__key">B</div>
+          <div class="condition__title h3">QUILL pipeline</div>
+          <div class="condition__sub">Five specialised agents communicating via strict JSON.</div>
+          <div class="condition__note meta">The hypothesis under test.</div>
+        </div>
+        <div class="condition">
+          <div class="condition__key">C</div>
+          <div class="condition__title h3">Human expert</div>
+          <div class="condition__sub">LEAF corpus — real teacher annotations.</div>
+          <div class="condition__note meta">Behzad et al., NAACL 2024 — the harder comparison.</div>
+        </div>
+      </div>
+
+      <div class="experiment-meta">
+        <div><span class="meta">Essays</span><strong>8</strong><span class="hint">L2 English, narrative + argumentative</span></div>
+        <div><span class="meta">API calls / run</span><strong>60</strong><span class="hint">12 essays · 5 agents (full QUILL pass)</span></div>
+        <div><span class="meta">Wall time</span><strong>~9 min</strong><span class="hint">on Groq (llama-3.3-70b-versatile)</span></div>
+        <div><span class="meta">Respondents</span><strong>15–20</strong><span class="hint">target, Google Form, in collection</span></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ─────────────── Run (interactive widget) ─────────────── -->
+  <section class="section" id="run">
+    <div class="container">
+      <div class="section-head">
+        <span class="eyebrow"><span class="dot"></span>Run it live</span>
+        <h2 class="h1">Paste an essay. See A and B side by side.</h2>
+        <p class="lead">
+          Paste a student essay (and optional assignment prompt), then watch Conditions A and B render in
+          real time. <strong>Live mode</strong> calls the Groq backend; <strong>demo mode</strong> serves
+          a pre-computed essay from the final experiment run — useful when the API is rate-limited.
+        </p>
+      </div>
+
+      <div class="run-grid">
+
+        <!-- Left: inputs -->
+        <form class="run-input" id="run-form" autocomplete="off">
+
+          <div class="run-input__row">
+            <label for="sample-select">
+              <span class="meta">Sample</span>
+              <span>Pick one or paste your own essay</span>
+            </label>
+            <select id="sample-select">
+              <option value="">— Choose a sample essay —</option>
+            </select>
+          </div>
+
+          <div class="run-input__row">
+            <label for="essay-input">
+              <span class="meta">Essay</span>
+              <span>The student text to evaluate</span>
+            </label>
+            <textarea id="essay-input" placeholder="Paste a student essay here…"></textarea>
+            <div class="run-input__count"><span data-bind="essay-words">0</span> words</div>
+          </div>
+
+          <div class="run-input__row">
+            <label for="prompt-input">
+              <span class="meta">Prompt</span>
+              <span>Optional — assignment prompt or rubric</span>
+            </label>
+            <textarea id="prompt-input" placeholder="Optional. E.g. &quot;Argumentative — should social media be regulated?&quot;"></textarea>
+          </div>
+
+          <div class="run-input__row">
+            <label>
+              <span class="meta">Mode</span>
+              <span>Live calls the API · demo serves a precomputed essay</span>
+            </label>
+            <div class="mode-toggle" role="tablist" aria-label="Generation mode">
+              <button type="button" class="is-active" data-mode="live"  role="tab" aria-selected="true">Live</button>
+              <button type="button"                   data-mode="demo" role="tab" aria-selected="false">Demo</button>
+            </div>
+            <div class="mode-toggle__help" data-bind="mode-help">
+              Live mode runs both conditions against Groq. Expect ~30 seconds for the full pipeline.
+            </div>
+          </div>
+
+          <div class="run-input__actions">
+            <button id="generate-btn" class="btn" type="submit">
+              Generate feedback
+              <span class="arr" aria-hidden="true">→</span>
+            </button>
+            <div class="run-status" id="run-status">
+              <span class="dot"></span><span data-bind="status-text">Ready.</span>
+            </div>
+          </div>
+        </form>
+
+        <!-- Right: aside (initial) → progress (generating) -->
+        <aside class="run-aside" id="run-aside-initial">
+          <span class="eyebrow"><span class="dot"></span>What you'll get back</span>
+          <p class="run-aside__note">
+            Two feedback documents over the same essay: <strong>A</strong>, a single-prompt baseline,
+            and <strong>B</strong>, the five-agent QUILL pipeline. Below them, a disclosure with each
+            agent's raw JSON output, so the moving parts of B are inspectable.
+          </p>
+          <ul class="run-aside__steps">
+            <li>A baseline takes ~3s on Groq — one call.</li>
+            <li>B runs A1 → A2 → A3 → A4 → A5 sequentially. ~30s end-to-end.</li>
+            <li>Demo mode bypasses both and replays a pre-generated record.</li>
+          </ul>
+        </aside>
+
+        <aside class="run-progress" id="run-progress">
+          <span class="eyebrow"><span class="dot"></span>Generating</span>
+          <div class="run-progress__row" id="prog-a">
+            <div class="run-progress__spinner"></div>
+            <div>Running single-prompt baseline (Condition A)…</div>
+            <div class="run-progress__time" data-bind="prog-a-time"></div>
+          </div>
+          <div class="run-progress__row is-accent" id="prog-b">
+            <div class="run-progress__spinner"></div>
+            <div>Running QUILL multi-agent pipeline (Condition B)…</div>
+            <div class="run-progress__time" data-bind="prog-b-time"></div>
+          </div>
+          <p style="margin:0;font-size:13px;color:var(--ink-3);line-height:1.55;">
+            The pipeline calls five agents in sequence with 5-second spacing between them to respect
+            Groq's per-minute rate limits.
+          </p>
+        </aside>
+
+      </div>
+
+      <!-- Error state -->
+      <div class="run-error" id="run-error">
+        <h4 data-bind="error-title">Something went wrong.</h4>
+        <p data-bind="error-message">—</p>
+        <div class="run-error__actions">
+          <button class="btn" id="error-fallback-btn" type="button">Switch to demo mode and retry</button>
+          <button class="btn btn-ghost" id="error-dismiss-btn" type="button">Dismiss</button>
+        </div>
+      </div>
+
+      <!-- Results -->
+      <div class="run-results" id="run-results">
+        <div class="run-results__head">
+          <div>
+            <span class="eyebrow"><span class="dot"></span>Output · the two conditions, side by side</span>
+            <h2 class="h2" style="margin-top:8px;">Read both. Notice what survives into B.</h2>
+          </div>
+          <span class="run-results__mode" data-bind="result-mode">Live mode</span>
+        </div>
+
+        <div class="run-results__grid">
+
+          <article class="result-card" id="card-a">
+            <header class="result-card__head">
+              <div class="result-card__key">A</div>
+              <div class="result-card__title">
+                <span class="name">Single-prompt baseline</span>
+                <span class="sub">One LLM call. Holistic prompt.</span>
+              </div>
+            </header>
+            <div class="result-card__body" data-bind="a-text">—</div>
+            <footer class="result-card__foot">
+              <span class="score-badge" data-bind="a-score" hidden></span>
+              <span data-bind="a-elapsed">—</span>
+            </footer>
+          </article>
+
+          <article class="result-card is-accent" id="card-b">
+            <header class="result-card__head">
+              <div class="result-card__key">B</div>
+              <div class="result-card__title">
+                <span class="name">QUILL pipeline</span>
+                <span class="sub">Five agents · JSON contracts · A3 corrections preserved.</span>
+              </div>
+            </header>
+            <div class="result-card__body" data-bind="b-text">—</div>
+            <footer class="result-card__foot">
+              <span class="score-badge" data-bind="b-score" hidden></span>
+              <span data-bind="b-elapsed">—</span>
+            </footer>
+          </article>
+
+        </div>
+
+        <!-- Intermediate accordion -->
+        <div class="run-intermediate" id="run-intermediate">
+          <div class="run-intermediate__head" id="run-intermediate-toggle" role="button" tabindex="0" aria-expanded="false">
+            <h3>See what each QUILL agent said</h3>
+            <span class="chevron">›</span>
+          </div>
+          <div class="run-intermediate__body" id="run-intermediate-body">
+            <!-- 5 accordions injected by app.js -->
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ─────────────── Footer ─────────────── -->
+  <footer class="footer" id="credits">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-mark">
+          <span style="display:inline-flex;align-items:center;gap:10px;color:var(--on-night);">
+            <svg width="36" height="36" viewBox="0 0 64 64" fill="none" aria-hidden="true">
+              <path d="M 4 10 C 18 10, 28 22, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M 4 21 C 18 21, 28 27, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M 4 32 L 36 32"               stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M 4 43 C 18 43, 28 37, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M 4 54 C 18 54, 28 42, 36 32" stroke="currentColor" stroke-width="1.4" stroke-linecap="round"/>
+              <path d="M 36 32 L 58 32"              stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/>
+              <circle cx="58" cy="32" r="1.6" fill="currentColor"/>
+            </svg>
+            <span style="font-family:var(--font-serif);font-weight:500;font-size:24px;letter-spacing:0.04em;">QUILL</span>
+          </span>
+          <p class="footer-tag">Quintet of Intelligent LLMs for Learning</p>
+        </div>
+        <div>
+          <span class="meta on-dark">Authors</span>
+          <ul class="footer-list">
+            <li>Ignacio Queipo de Llano Pérez-Gascón</li>
+            <li>Do-gyu Ha</li>
+            <li>Sergi Prieto Oliveras</li>
+            <li>Minjae Lee</li>
+          </ul>
+        </div>
+        <div>
+          <span class="meta on-dark">Context</span>
+          <ul class="footer-list">
+            <li>AI Applied Education Theories and Implementation</li>
+            <li>Sogang University · Spring 2026</li>
+            <li>In collaboration with Universidad Pontificia Comillas</li>
+          </ul>
+        </div>
+        <div>
+          <span class="meta on-dark">Links</span>
+          <ul class="footer-list footer-list--links">
+            <li><a href="https://github.com/iqueipopg/QUILL" target="_blank" rel="noopener">github.com/iqueipopg/QUILL</a></li>
+            <li><a href="#experiment">Experiment design</a></li>
+            <li><a href="#run">Run the demo</a></li>
+          </ul>
+        </div>
+      </div>
+      <hr class="footer-hr" />
+      <div class="footer-bottom">
+        <span class="caption on-dark-2">
+          LEAF dataset: Behzad et al., <em>LEAF: A Learner English Annotated Feedback corpus</em>, NAACL 2024.
+          Used under its terms for the Condition C feedbacks.
+        </span>
+        <span class="caption on-dark-2">© 2026 QUILL contributors.</span>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Health pill (backend status indicator) -->
+  <div class="health-pill" id="health-pill" title="Backend status">
+    <span class="dot"></span>
+    <span data-bind="health-text">Checking backend…</span>
+  </div>
+
+  <script src="/static/app.js" defer></script>
+</body>
+</html>

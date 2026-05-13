@@ -39,6 +39,11 @@ config.local.yaml
 # reproducible without needing the full corpus.
 data/leaf/leaf.jsonl
 
+# ── Web demo scratch dumps ────────────────────────────────────────
+# Per-request pipeline dumps written by web/app.py during live mode.
+# Local scratch artifacts — do not pollute the repo.
+web/_live_runs/
+
 # ── OS cruft ──────────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
