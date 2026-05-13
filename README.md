@@ -1,4 +1,15 @@
-# QUILL — Quintet of Intelligent LLMs for Learning
+<p align="center">
+  <img src="assets/banner.svg" alt="QUILL — Quintet of Intelligent LLMs for Learning" width="100%">
+</p>
+
+<p align="center">
+  <a href="#architecture"><img src="https://img.shields.io/badge/agents-5-A4123A?style=flat-square&labelColor=0F0F11" alt="5 agents"></a>
+  <a href="#backends"><img src="https://img.shields.io/badge/backend-Groq%20%C2%B7%20Gemini%20%C2%B7%20local-0F0F11?style=flat-square" alt="backends"></a>
+  <a href="#experiment"><img src="https://img.shields.io/badge/experiment-N%3D8%20essays-0F0F11?style=flat-square" alt="experiment"></a>
+  <a href="#context"><img src="https://img.shields.io/badge/Sogang%20%C2%B7%20Spring%202026-A4123A?style=flat-square" alt="course context"></a>
+</p>
+
+---
 
 A multi-agent system for automated feedback on student essays. Five cooperative LLM agents evaluate orthogonal dimensions of student writing (structure, content, language, then synthesise and moderate) to produce richer, more actionable feedback than a single-prompt LLM approach.
 

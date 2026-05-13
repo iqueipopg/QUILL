@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 300" role="img" aria-label="QUILL — Quintet of Intelligent LLMs for Learning">
+  <title>QUILL — Quintet of Intelligent LLMs for Learning</title>
+
+  <!-- white surface -->
+  <rect width="1200" height="300" fill="#FFFFFF"/>
+
+  <!-- brass corner brackets (top-left + bottom-right, decorative — handoff signature) -->
+  <path d="M 32 32 L 32 56 M 32 32 L 56 32" stroke="#C9A961" stroke-width="2" stroke-linecap="square"/>
+  <path d="M 1168 268 L 1168 244 M 1168 268 L 1144 268" stroke="#C9A961" stroke-width="2" stroke-linecap="square"/>
+
+  <!-- convergence mark (the QUILL logo). Five strokes converge, then one continues. -->
+  <g transform="translate(190 120)">
+    <!-- mark canvas: 200 x 200, scaled from 64x64 viewBox -->
+    <g transform="scale(3.125)">
+      <path d="M 4 10 C 18 10, 28 22, 36 32" stroke="#0F0F11" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+      <path d="M 4 21 C 18 21, 28 27, 36 32" stroke="#0F0F11" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+      <path d="M 4 32 L 36 32"               stroke="#0F0F11" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+      <path d="M 4 43 C 18 43, 28 37, 36 32" stroke="#0F0F11" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+      <path d="M 4 54 C 18 54, 28 42, 36 32" stroke="#0F0F11" stroke-width="1.4" stroke-linecap="round" fill="none"/>
+      <path d="M 36 32 L 58 32"              stroke="#0F0F11" stroke-width="2.2" stroke-linecap="round" fill="none"/>
+      <circle cx="58" cy="32" r="1.6" fill="#0F0F11"/>
+    </g>
+  </g>
+
+  <!-- text block -->
+  <g font-family="'Newsreader', 'Source Serif 4', Georgia, 'Times New Roman', serif">
+
+    <!-- eyebrow -->
+    <text x="430" y="80"
+          font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
+          font-size="13"
+          letter-spacing="2.8"
+          fill="#6B6B73">
+      RESEARCH PROJECT &#183; JUNE 2026
+    </text>
+
+    <!-- wordmark: QUILL. in cardinal + ink dot -->
+    <text x="430" y="170"
+          font-size="110"
+          font-weight="400"
+          letter-spacing="-4"
+          fill="#A4123A">QUILL<tspan fill="#0F0F11">.</tspan></text>
+
+    <!-- brass rule -->
+    <line x1="430" y1="200" x2="486" y2="200" stroke="#C9A961" stroke-width="2"/>
+
+    <!-- italic subtitle -->
+    <text x="430" y="240"
+          font-size="26"
+          font-style="italic"
+          font-weight="400"
+          fill="#3F3F46">
+      Quintet of Intelligent LLMs for Learning.
+    </text>
+
+    <!-- meta line below -->
+    <text x="430" y="272"
+          font-family="'IBM Plex Mono', ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
+          font-size="12"
+          letter-spacing="1.4"
+          fill="#6B6B73">
+      Five specialised LLM agents &#183; one feedback document
+    </text>
+  </g>
+</svg>
