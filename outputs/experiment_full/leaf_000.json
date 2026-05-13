@@ -1,0 +1,241 @@
+{
+  "essay_id": "leaf_000",
+  "essay_text": "Back in my senior high school time, I had difficulty solving physics problems. Formulas and graphs always confuse me, causing my failure of every quiz and exam. I made every effort to attempt to improve my scores, including purchasing online courses and attending to cram schools, but none of these seemed to work. At a night after attending a cram school, I was deliberating whether I have to abandon my dream of being an advanced engineer since none of the attempts I had done worked. Being depressed, I couldn't help but shed tears in public, though it was shameful. \nA man walked to the bench I was sitting on and talked to me. He told me that he was a physics teacher with over 30 years of teaching experience, and he had opened a cram school with a few students, most of which had encountered the same problem as mine. He invited me to audit his class, and soon he started to teach physics concepts in a brand-new way that everyone could easily learn. \nHe once said, \"All techniques and knowledge are written to our mind after being comprehended.\" This advanced and unique thought has profoundly implemented in my head, and affect how I study a new thing. Now I never study without making my conclusions, and I always review my notes, and the grades are skyrocketing after his teaching. These great changes should attribute to his words. Without him, I would have had a struggle with my studies.",
+  "prompt": "Descriptive: The Story of A Person That Changed You A Lot",
+  "elapsed": {
+    "A": 2.1976609230041504,
+    "B": 26.825477838516235
+  },
+  "blind": {
+    "X": {
+      "source": "B_multiagent",
+      "text": "You presented a clear and engaging narrative about the person who changed your life, with a strong introduction and effective use of personal anecdotes. To further improve, consider adding a conclusion, smoothing transitions, and delving deeper into analysis.\n\nYour introduction is clear and engaging, setting the context for the story, and the narrative is easy to follow with events in chronological order. Consider improving transitions between paragraphs and adding a concluding paragraph to summarize the impact of the physics teacher on your life and studies.\n\nYour essay provides a clear narrative structure, effectively uses personal anecdotes, and includes specific examples of how the teacher's methods improved your learning. To strengthen your content, consider adding more depth to the analysis of the teacher's methods and their broader implications, and explore the student's emotional journey in more detail.\n\nYou demonstrate strong grammar, vocabulary, and academic register skills, with a clarity score of 4. There are opportunities to improve sentence variety and address specific word choice and grammar errors to enhance the overall flow and engagement of your writing.\n\nGoing forward, focus on these things: Add a concluding paragraph to summarize the impact of the physics teacher on your life and studies; Use transitional phrases to connect ideas between paragraphs and improve the flow of the narrative; and Delve deeper into the analysis of the teacher's methods and their broader implications for education or personal growth.\n\nSpecific corrections noted in your essay:\n- 'Back in my senior high school time' → 'During my senior high school years' (word_choice)\n- 'causing my failure of every quiz and exam' → 'causing me to fail every quiz and exam' (grammar)\n- 'I made every effort to attempt to improve my scores' → 'I made every effort to improve my scores' (word_choice)\n- 'including purchasing online courses and attending to cram schools' → 'including purchasing online courses and attending cram schools' (grammar)\n- 'At a night after attending a cram school' → 'One night, after attending a cram school' (word_choice)\n- 'I was deliberating whether I have to abandon my dream' → 'I was deliberating whether I had to abandon my dream' (grammar)\n- 'Being depressed, I couldn't help but shed tears in public, though it was shameful' → 'Overcome with depression, I couldn't help but shed tears in public, although it was shameful' (word_choice)\n- 'He told me that he was a physics teacher with over 30 years of teaching experience' → 'He told me that he was a physics teacher with over 30 years' teaching experience' (punctuation)\n- 'and he had opened a cram school with a few students, most of which had encountered the same problem as mine' → 'and he had opened a cram school with a few students who had encountered the same problem as I had' (grammar)\n- 'He invited me to audit his class, and soon he started to teach physics concepts in a brand-new way that everyone could easily learn' → 'He invited me to audit his class, where he soon started teaching physics concepts in a brand-new way that everyone could easily learn' (word_choice)\n- 'He once said, 'All techniques and knowledge are written to our mind after being comprehended'' → 'He once said, 'All techniques and knowledge are written in our minds after being comprehended'' (word_choice)"
+    },
+    "Y": {
+      "source": "A_baseline",
+      "text": "You have written a heartfelt and engaging essay about a person who significantly impacted your life, and your story is well-structured and easy to follow. However, there are areas where you can improve, particularly in terms of vocabulary, sentence structure, and providing more specific examples to support your arguments.\n\nYou did well in dividing your essay into clear sections, starting with an introduction to your problem, followed by the encounter with the physics teacher, and concluding with the impact he had on your life. Consider improving your transitions between paragraphs to create a smoother flow, and think about adding more detail to your conclusion to summarize the main points and reiterate the significance of the teacher's influence.\n\nYour thesis is implicit but clear: the physics teacher changed your approach to learning and thus had a profound impact on your academic success. You provided a good narrative about your struggles and how the teacher's unique approach helped you. To strengthen your argument, consider adding more specific examples of how the teacher's methods differed from others you had tried, and provide more evidence of the 'skyrocketing' grades, such as specific numbers or comparisons.\n\nYour essay is written mainly in a clear and understandable manner, but there are moments where grammar and vocabulary could be improved. For instance, phrases like 'causing my failure of every quiz and exam' could be rephrased for better clarity, and consider using more academic vocabulary to describe your emotions and experiences, such as 'demoralized' instead of 'depressed'. Additionally, watch out for minor errors in verb tense consistency and punctuation.\n\nGoing forward, focus on these things: Refine your vocabulary to better convey complex emotions and ideas; Enhance paragraph transitions to improve the essay's flow; and Provide concrete examples and evidence to support your claims about the teacher's impact."
+    },
+    "Z": {
+      "source": "C_human",
+      "text": "There should be an additional paragraph that explains how you met this man. Why did you decide to speak to him, what his name was and why you thought he was safe to talk to (stranger danger!). How the conversation deviated towards studies and he thought it best to tell you some of his story. This presentation is weak in development. It does not have an informative presentation because it skips around in the story and does not create a strong foundation for the actual presentation. As a creative writing exercise, I doubt this will get a passing score. You have to remember, the backstory, the scene set up, and actual dialogue between the parties would have helped to turn this non dimensional presentation into at least, a one dimensional story."
+    }
+  },
+  "key": {
+    "X": "B_multiagent",
+    "Y": "A_baseline",
+    "Z": "C_human"
+  },
+  "raw": {
+    "A": {
+      "overall_score": 4,
+      "summary": "You have written a heartfelt and engaging essay about a person who significantly impacted your life, and your story is well-structured and easy to follow. However, there are areas where you can improve, particularly in terms of vocabulary, sentence structure, and providing more specific examples to support your arguments.",
+      "structure_feedback": "You did well in dividing your essay into clear sections, starting with an introduction to your problem, followed by the encounter with the physics teacher, and concluding with the impact he had on your life. Consider improving your transitions between paragraphs to create a smoother flow, and think about adding more detail to your conclusion to summarize the main points and reiterate the significance of the teacher's influence.",
+      "content_feedback": "Your thesis is implicit but clear: the physics teacher changed your approach to learning and thus had a profound impact on your academic success. You provided a good narrative about your struggles and how the teacher's unique approach helped you. To strengthen your argument, consider adding more specific examples of how the teacher's methods differed from others you had tried, and provide more evidence of the 'skyrocketing' grades, such as specific numbers or comparisons.",
+      "language_feedback": "Your essay is written mainly in a clear and understandable manner, but there are moments where grammar and vocabulary could be improved. For instance, phrases like 'causing my failure of every quiz and exam' could be rephrased for better clarity, and consider using more academic vocabulary to describe your emotions and experiences, such as 'demoralized' instead of 'depressed'. Additionally, watch out for minor errors in verb tense consistency and punctuation.",
+      "priority_actions": [
+        "Refine your vocabulary to better convey complex emotions and ideas",
+        "Enhance paragraph transitions to improve the essay's flow",
+        "Provide concrete examples and evidence to support your claims about the teacher's impact"
+      ]
+    },
+    "B": {
+      "essay_length": 1401,
+      "rubric_provided": true,
+      "a1_structure": {
+        "has_introduction": true,
+        "has_conclusion": false,
+        "paragraph_count": 3,
+        "logical_flow_score": 4,
+        "transition_quality_score": 2,
+        "overall_structure_score": 3,
+        "strengths": [
+          "The essay starts with a clear and engaging introduction that sets the context for the story",
+          "The narrative is easy to follow, and the events are presented in a chronological order"
+        ],
+        "weaknesses": [
+          "The essay lacks a clear conclusion to summarize the main points and reiterate the significance of the person's influence",
+          "Transitions between paragraphs are not smooth, and the connections between ideas could be improved"
+        ],
+        "suggestions": [
+          "Add a concluding paragraph to summarize the impact of the physics teacher on the student's life and studies",
+          "Use transitional phrases to connect ideas between paragraphs and improve the flow of the narrative"
+        ]
+      },
+      "a1_elapsed_s": 1.2,
+      "a2_content": {
+        "thesis_present": true,
+        "thesis_quality_score": 4,
+        "prompt_adherence_score": 5,
+        "evidence_quality_score": 4,
+        "argumentation_depth_score": 3,
+        "overall_content_score": 4,
+        "rubric_coverage": [
+          {
+            "criterion": "thesis statement",
+            "status": "met",
+            "comment": "The essay clearly states how a person changed the student's life"
+          },
+          {
+            "criterion": "supporting evidence",
+            "status": "met",
+            "comment": "The essay provides specific examples of how the physics teacher helped the student"
+          },
+          {
+            "criterion": "argumentation depth",
+            "status": "partially_met",
+            "comment": "The essay could delve deeper into the impact of the teacher's methods on the student's learning"
+          },
+          {
+            "criterion": "topic relevance",
+            "status": "met",
+            "comment": "The essay stays focused on the story of the person who changed the student's life"
+          }
+        ],
+        "strengths": [
+          "Clear narrative structure",
+          "Effective use of personal anecdote to illustrate the impact of the physics teacher",
+          "Specific examples of how the teacher's methods improved the student's learning"
+        ],
+        "weaknesses": [
+          "Limited analysis of the teacher's methods and their broader implications",
+          "Could benefit from more nuanced exploration of the student's emotional journey"
+        ],
+        "suggestions": [
+          "Consider adding more depth to the analysis of the teacher's methods and their impact on the student's learning",
+          "Explore the broader implications of the teacher's approach for education or personal growth",
+          "Use more descriptive language to bring the story to life and engage the reader"
+        ]
+      },
+      "a2_elapsed_s": 1.5,
+      "a3_language": {
+        "grammar_score": 4,
+        "vocabulary_score": 4,
+        "academic_register_score": 4,
+        "clarity_score": 4,
+        "sentence_variety_score": 3,
+        "overall_language_score": 4,
+        "error_annotations": [
+          {
+            "original": "Back in my senior high school time",
+            "corrected": "During my senior high school years",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "causing my failure of every quiz and exam",
+            "corrected": "causing me to fail every quiz and exam",
+            "error_type": "grammar"
+          },
+          {
+            "original": "I made every effort to attempt to improve my scores",
+            "corrected": "I made every effort to improve my scores",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "including purchasing online courses and attending to cram schools",
+            "corrected": "including purchasing online courses and attending cram schools",
+            "error_type": "grammar"
+          },
+          {
+            "original": "At a night after attending a cram school",
+            "corrected": "One night, after attending a cram school",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "I was deliberating whether I have to abandon my dream",
+            "corrected": "I was deliberating whether I had to abandon my dream",
+            "error_type": "grammar"
+          },
+          {
+            "original": "Being depressed, I couldn't help but shed tears in public, though it was shameful",
+            "corrected": "Overcome with depression, I couldn't help but shed tears in public, although it was shameful",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "He told me that he was a physics teacher with over 30 years of teaching experience",
+            "corrected": "He told me that he was a physics teacher with over 30 years' teaching experience",
+            "error_type": "punctuation"
+          },
+          {
+            "original": "and he had opened a cram school with a few students, most of which had encountered the same problem as mine",
+            "corrected": "and he had opened a cram school with a few students who had encountered the same problem as I had",
+            "error_type": "grammar"
+          },
+          {
+            "original": "He invited me to audit his class, and soon he started to teach physics concepts in a brand-new way that everyone could easily learn",
+            "corrected": "He invited me to audit his class, where he soon started teaching physics concepts in a brand-new way that everyone could easily learn",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "He once said, 'All techniques and knowledge are written to our mind after being comprehended'",
+            "corrected": "He once said, 'All techniques and knowledge are written in our minds after being comprehended'",
+            "error_type": "word_choice"
+          }
+        ]
+      },
+      "a3_elapsed_s": 1.8,
+      "a4_synthesized": {
+        "overall_score": 4,
+        "summary": "You did well in presenting a clear and engaging narrative about the person who changed your life, with a strong introduction and effective use of personal anecdotes. However, there are areas for improvement, including adding a conclusion, smoothing transitions, and delving deeper into analysis.",
+        "structure_feedback": "You start with a clear and engaging introduction that sets the context for the story, and the narrative is easy to follow with events presented in chronological order. However, consider improving the transitions between paragraphs and adding a concluding paragraph to summarize the impact of the physics teacher on your life and studies.",
+        "content_feedback": "Your essay provides a clear narrative structure, effectively uses personal anecdotes, and includes specific examples of how the teacher's methods improved your learning. To further strengthen your content, consider adding more depth to the analysis of the teacher's methods and their broader implications, and explore the student's emotional journey in more detail.",
+        "language_feedback": "You demonstrate strong grammar, vocabulary, and academic register skills, with a clarity score of 4. However, there are opportunities to improve sentence variety and address specific word choice and grammar errors, such as those annotated in the error annotations, to enhance the overall flow and engagement of your writing.",
+        "priority_actions": [
+          "Add a concluding paragraph to summarize the impact of the physics teacher on your life and studies",
+          "Use transitional phrases to connect ideas between paragraphs and improve the flow of the narrative",
+          "Delve deeper into the analysis of the teacher's methods and their broader implications for education or personal growth"
+        ]
+      },
+      "a4_elapsed_s": 1.6,
+      "a5_moderated": {
+        "moderated_feedback": {
+          "overall_score": 4,
+          "summary": "You presented a clear and engaging narrative about the person who changed your life, with a strong introduction and effective use of personal anecdotes. To further improve, consider adding a conclusion, smoothing transitions, and delving deeper into analysis.",
+          "structure_feedback": "Your introduction is clear and engaging, setting the context for the story, and the narrative is easy to follow with events in chronological order. Consider improving transitions between paragraphs and adding a concluding paragraph to summarize the impact of the physics teacher on your life and studies.",
+          "content_feedback": "Your essay provides a clear narrative structure, effectively uses personal anecdotes, and includes specific examples of how the teacher's methods improved your learning. To strengthen your content, consider adding more depth to the analysis of the teacher's methods and their broader implications, and explore the student's emotional journey in more detail.",
+          "language_feedback": "You demonstrate strong grammar, vocabulary, and academic register skills, with a clarity score of 4. There are opportunities to improve sentence variety and address specific word choice and grammar errors to enhance the overall flow and engagement of your writing.",
+          "priority_actions": [
+            "Add a concluding paragraph to summarize the impact of the physics teacher on your life and studies",
+            "Use transitional phrases to connect ideas between paragraphs and improve the flow of the narrative",
+            "Delve deeper into the analysis of the teacher's methods and their broader implications for education or personal growth"
+          ]
+        },
+        "moderation_log": [
+          {
+            "action": "removed",
+            "original": "However, there are areas for improvement",
+            "reason": "Removed vague comment and rephrased for clarity"
+          },
+          {
+            "action": "rephrased",
+            "original": "consider improving the transitions between paragraphs and adding a concluding paragraph",
+            "reason": "Rephrased for clarity and concision"
+          },
+          {
+            "action": "removed",
+            "original": "such as those annotated in the error annotations",
+            "reason": "Removed reference to external annotations for clarity"
+          },
+          {
+            "action": "rephrased",
+            "original": "to further strengthen your content",
+            "reason": "Rephrased for clarity and concision"
+          },
+          {
+            "action": "removed",
+            "original": "with a clarity score of 4",
+            "reason": "Removed redundant information"
+          }
+        ],
+        "moderation_summary": {
+          "changes_made": 5,
+          "tone_issues": 0,
+          "bias_flags": 0,
+          "vague_replacements": 1
+        }
+      },
+      "a5_elapsed_s": 1.7,
+      "total_elapsed_s": 26.8
+    },
+    "C": "There should be an additional paragraph that explains how you met this man. Why did you decide to speak to him, what his name was and why you thought he was safe to talk to (stranger danger!). How the conversation deviated towards studies and he thought it best to tell you some of his story. This presentation is weak in development. It does not have an informative presentation because it skips around in the story and does not create a strong foundation for the actual presentation. As a creative writing exercise, I doubt this will get a passing score. You have to remember, the backstory, the scene set up, and actual dialogue between the parties would have helped to turn this non dimensional presentation into at least, a one dimensional story."
+  }
+}

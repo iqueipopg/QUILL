@@ -1,0 +1,248 @@
+{
+  "essay_id": "leaf_004",
+  "essay_text": "Some people say free time activities for children should be organized by parents. Others say that children should be free to choose what they do in their free time. Discuss both views and give your opinion. \nIt is a common belief that leasure activities for children should be organized by their mom and dad. However, there is more persuasive argument that they should have their freedom to choose what they do in their spare time in order to increase their creativity and explore new things to this world. \nOn the one hand, when parents let their child choose what they keen on, not only help increase their creativity but also develop their problem-solving skills. Once giving a child freedom, the stimulation of curiosity will be activated, in this time, they will ask their parents bunch of questions about things in the world. Consequently, they will gain more knowledges and tend to be more clever and talkative than othe. It has been proven that, children who spend their leisure time in their hobby are smarter than those who not. Giving them time for their interest instead of control them, thereby gain their creativity. \nNevertheless, children have lack of organizing skills, thereby they couldn't control their time and can be overplay without parent's remind. For that reason, managing their spare time would be the best ideal. This not only help them maintain their energy for the following day but also reduce their time on blue screen, especially whose that spend too much time on their phone, ipad. In fact, a recent study revealed that children under time control by their parents have more discipline than others. The result is that they develop their discipline skill better than their peers. \nTo sum up, while it is apparent that managing children's time is one way parents create their discipline, it is undeniable that letting their child do their hobby in their free time to develop their creativity and other skills is more crucial.",
+  "prompt": "Should parents control their child's free time?",
+  "elapsed": {
+    "A": 2.0343289375305176,
+    "B": 27.04487657546997
+  },
+  "blind": {
+    "X": {
+      "source": "B_multiagent",
+      "text": "You presented a clear opinion on the topic and provided relevant examples to support your argument. To enhance the overall flow and clarity of your essay, consider refining your sentence structure, vocabulary, and transitions.\n\nYou effectively presented two opposing views on the topic, provided specific examples and explanations, and concluded by summarizing the main points. Consider adding a thesis statement at the end of the introduction to guide the rest of the essay and use more transitional phrases to connect ideas between paragraphs. Varying your sentence structure will also improve the essay's flow.\n\nYour essay presents a clear argument, provides relevant examples and studies to support the argument, and discusses both views on the topic. To further strengthen your argument, consider exploring counterarguments in more depth and using precise language to support your claims. You effectively stayed focused on the topic of parental control over children's free time.\n\nYour essay is clear and easy to understand. To improve, focus on refining your grammar, vocabulary, and academic tone. Proofread your work to catch errors and consider using more formal language to maintain an academic tone. Improving sentence structure by varying sentence length and using more complex sentences will also be beneficial.\n\nGoing forward, focus on these things: Use more transitional phrases to connect ideas between paragraphs and vary sentence structure to improve the overall flow of the essay; Explore counterarguments in more depth to strengthen your argument and use more precise language to support your claims; and Improve your grammar, vocabulary, and academic tone by proofreading your work and using more formal language.\n\nSpecific corrections noted in your essay:\n- 'leasure' → 'leisure' (spelling)\n- 'their mom and dad' → 'their parents' (word_choice)\n- 'what they keen on' → 'what they are interested in' (word_choice)\n- 'bunch of questions about things in the world' → 'many questions about the world' (word_choice)\n- 'gain more knowledges' → 'acquire more knowledge' (word_choice)\n- 'tend to be more clever and talkative than othe' → 'tend to be more clever and talkative than others' (spelling)\n- 'children who spend their leisure time in their hobby are smarter than those who not' → 'children who spend their leisure time on their hobbies are smarter than those who do not' (grammar)\n- 'without parent's remind' → 'without their parents' reminder' (grammar)\n- 'managing their spare time would be the best ideal' → 'managing their spare time would be the best idea' (word_choice)\n- 'whose that spend too much time on their phone, ipad' → 'those who spend too much time on their phones or iPads' (grammar)\n- 'children under time control by their parents have more discipline than others' → 'children whose time is controlled by their parents have more discipline than others' (word_choice)"
+    },
+    "Y": {
+      "source": "A_baseline",
+      "text": "You presented a clear discussion on both views regarding parental control over children's free time, but there's room for improvement in terms of language precision and evidence integration. Your essay demonstrates a good understanding of the topic and a clear opinion, making it a solid foundation for further refinement.\n\nYou did well in introducing the topic and presenting both sides of the argument. However, consider improving your transitions between paragraphs to enhance the logical flow. For instance, you could use more transitional phrases to connect your ideas between paragraphs. Additionally, your conclusion effectively summarizes the main points, but think about making your final statement more impactful by reiterating your thesis in different words.\n\nYour thesis is clear, and you adhered to the prompt by discussing both views. The points you raised about children developing creativity and problem-solving skills when given freedom are well-taken. Nevertheless, consider strengthening your argument with more specific examples or studies to support your claims. For example, instead of stating that children who spend their leisure time in their hobby are smarter, you could cite a specific study or expert opinion to back this up.\n\nYou generally maintained an academic register, but there were instances of grammatical errors and awkward phrasing that detracted from the clarity of your argument. For example, 'leasure activities' should be 'leisure activities,' and 'bunch of questions about things in the world' could be rephrased for better clarity. Consider revising your essay to address these issues and enhance the overall readability.\n\nGoing forward, focus on these things: Revise your essay to correct grammatical errors and improve sentence clarity; Integrate more specific evidence, such as studies or expert opinions, to support your arguments; and Enhance your transitions between paragraphs to improve the logical flow of your essay."
+    },
+    "Z": {
+      "source": "C_human",
+      "text": "The first paragraph is incomplete. You did not provide your writer's opinion as was required by the writing instruction. Full points will not be awarded to you by the examiner due to the incompletely developed paragraph. The writing format for the reasoning paragraphs should be on the compare and contrast side. Meaning, you compare the public point of view with your personal opinion. In this writing, there is no comparison point as required. The concluding paragraph is also in error as it gives a final opinion on the matter when it was not required. This is just a general discussion essay. It should not make a decision for the reader. That is not needed."
+    }
+  },
+  "key": {
+    "X": "B_multiagent",
+    "Y": "A_baseline",
+    "Z": "C_human"
+  },
+  "raw": {
+    "A": {
+      "overall_score": 4,
+      "summary": "You presented a clear discussion on both views regarding parental control over children's free time, but there's room for improvement in terms of language precision and evidence integration. Your essay demonstrates a good understanding of the topic and a clear opinion, making it a solid foundation for further refinement.",
+      "structure_feedback": "You did well in introducing the topic and presenting both sides of the argument. However, consider improving your transitions between paragraphs to enhance the logical flow. For instance, you could use more transitional phrases to connect your ideas between paragraphs. Additionally, your conclusion effectively summarizes the main points, but think about making your final statement more impactful by reiterating your thesis in different words.",
+      "content_feedback": "Your thesis is clear, and you adhered to the prompt by discussing both views. The points you raised about children developing creativity and problem-solving skills when given freedom are well-taken. Nevertheless, consider strengthening your argument with more specific examples or studies to support your claims. For example, instead of stating that children who spend their leisure time in their hobby are smarter, you could cite a specific study or expert opinion to back this up.",
+      "language_feedback": "You generally maintained an academic register, but there were instances of grammatical errors and awkward phrasing that detracted from the clarity of your argument. For example, 'leasure activities' should be 'leisure activities,' and 'bunch of questions about things in the world' could be rephrased for better clarity. Consider revising your essay to address these issues and enhance the overall readability.",
+      "priority_actions": [
+        "Revise your essay to correct grammatical errors and improve sentence clarity",
+        "Integrate more specific evidence, such as studies or expert opinions, to support your arguments",
+        "Enhance your transitions between paragraphs to improve the logical flow of your essay"
+      ]
+    },
+    "B": {
+      "essay_length": 1957,
+      "rubric_provided": true,
+      "a1_structure": {
+        "has_introduction": true,
+        "has_conclusion": true,
+        "paragraph_count": 4,
+        "logical_flow_score": 4,
+        "transition_quality_score": 3,
+        "overall_structure_score": 4,
+        "strengths": [
+          "The essay clearly presents two opposing views on the topic",
+          "The writer provides specific examples and explanations to support their arguments",
+          "The conclusion effectively summarizes the main points"
+        ],
+        "weaknesses": [
+          "The transition between paragraphs could be smoother",
+          "Some paragraphs seem to lack a clear topic sentence",
+          "The writer could use more varied and sophisticated transition words"
+        ],
+        "suggestions": [
+          "Use more transitional phrases to connect ideas between paragraphs",
+          "Consider adding a thesis statement at the end of the introduction to guide the rest of the essay",
+          "Vary sentence structure to improve the overall flow of the essay"
+        ]
+      },
+      "a1_elapsed_s": 1.2,
+      "a2_content": {
+        "thesis_present": true,
+        "thesis_quality_score": 4,
+        "prompt_adherence_score": 5,
+        "evidence_quality_score": 4,
+        "argumentation_depth_score": 4,
+        "overall_content_score": 4,
+        "rubric_coverage": [
+          {
+            "criterion": "thesis statement",
+            "status": "met",
+            "comment": "The essay presents a clear opinion on the topic"
+          },
+          {
+            "criterion": "supporting evidence",
+            "status": "met",
+            "comment": "The essay provides relevant examples and studies to support the argument"
+          },
+          {
+            "criterion": "argumentation depth",
+            "status": "partially_met",
+            "comment": "The essay discusses both views but could delve deeper into the counterarguments"
+          },
+          {
+            "criterion": "topic relevance",
+            "status": "met",
+            "comment": "The essay stays focused on the topic of parental control over children's free time"
+          }
+        ],
+        "strengths": [
+          "Presents a clear thesis statement",
+          "Provides relevant examples and studies to support the argument",
+          "Discusses both views on the topic"
+        ],
+        "weaknesses": [
+          "Could delve deeper into the counterarguments",
+          "Transitions between paragraphs could be smoother"
+        ],
+        "suggestions": [
+          "Consider adding more nuance to the counterarguments",
+          "Use more precise language to support the argument",
+          "Use transitional phrases to connect the ideas between paragraphs"
+        ]
+      },
+      "a2_elapsed_s": 1.2,
+      "a3_language": {
+        "grammar_score": 3,
+        "vocabulary_score": 3,
+        "academic_register_score": 3,
+        "clarity_score": 4,
+        "sentence_variety_score": 3,
+        "overall_language_score": 3,
+        "error_annotations": [
+          {
+            "original": "leasure",
+            "corrected": "leisure",
+            "error_type": "spelling"
+          },
+          {
+            "original": "their mom and dad",
+            "corrected": "their parents",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "what they keen on",
+            "corrected": "what they are interested in",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "bunch of questions about things in the world",
+            "corrected": "many questions about the world",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "gain more knowledges",
+            "corrected": "acquire more knowledge",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "tend to be more clever and talkative than othe",
+            "corrected": "tend to be more clever and talkative than others",
+            "error_type": "spelling"
+          },
+          {
+            "original": "children who spend their leisure time in their hobby are smarter than those who not",
+            "corrected": "children who spend their leisure time on their hobbies are smarter than those who do not",
+            "error_type": "grammar"
+          },
+          {
+            "original": "without parent's remind",
+            "corrected": "without their parents' reminder",
+            "error_type": "grammar"
+          },
+          {
+            "original": "managing their spare time would be the best ideal",
+            "corrected": "managing their spare time would be the best idea",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "whose that spend too much time on their phone, ipad",
+            "corrected": "those who spend too much time on their phones or iPads",
+            "error_type": "grammar"
+          },
+          {
+            "original": "children under time control by their parents have more discipline than others",
+            "corrected": "children whose time is controlled by their parents have more discipline than others",
+            "error_type": "word_choice"
+          }
+        ],
+        "strengths": [
+          "The essay presents a clear discussion of both views on the topic.",
+          "The writer attempts to use transitional phrases to connect ideas between sentences."
+        ],
+        "suggestions": [
+          "Use more precise vocabulary to convey ideas, such as 'autonomy' instead of 'freedom'.",
+          "Improve sentence structure by varying sentence length and using more complex sentences.",
+          "Use more formal language to maintain an academic tone, avoiding colloquial expressions like 'bunch of questions'."
+        ]
+      },
+      "a3_elapsed_s": 1.9,
+      "a4_synthesized": {
+        "overall_score": 4,
+        "summary": "You did well in presenting a clear opinion on the topic and providing relevant examples to support your argument, but consider improving your sentence structure, vocabulary, and transitions to enhance the overall flow and clarity of your essay.",
+        "structure_feedback": "You effectively presented two opposing views on the topic, provided specific examples and explanations, and concluded by summarizing the main points. However, consider adding a thesis statement at the end of the introduction to guide the rest of the essay, and use more transitional phrases to connect ideas between paragraphs. Additionally, vary your sentence structure to improve the overall flow of the essay.",
+        "content_feedback": "Your essay presents a clear thesis statement, provides relevant examples and studies to support the argument, and discusses both views on the topic. To further strengthen your argument, consider delving deeper into the counterarguments and using more precise language to support your claims. You effectively stayed focused on the topic of parental control over children's free time.",
+        "language_feedback": "While your essay is clear and easy to understand, there are areas for improvement in terms of grammar, vocabulary, and academic register. Be sure to proofread your work to catch spelling and grammatical errors, and consider using more formal language to maintain an academic tone. Additionally, work on improving your sentence structure by varying sentence length and using more complex sentences.",
+        "priority_actions": [
+          "Use more transitional phrases to connect ideas between paragraphs and vary sentence structure to improve the overall flow of the essay",
+          "Delve deeper into the counterarguments to strengthen your argument and use more precise language to support your claims",
+          "Improve your grammar, vocabulary, and academic register by proofreading your work and using more formal language"
+        ]
+      },
+      "a4_elapsed_s": 1.9,
+      "a5_moderated": {
+        "moderated_feedback": {
+          "overall_score": 4,
+          "summary": "You presented a clear opinion on the topic and provided relevant examples to support your argument. To enhance the overall flow and clarity of your essay, consider refining your sentence structure, vocabulary, and transitions.",
+          "structure_feedback": "You effectively presented two opposing views on the topic, provided specific examples and explanations, and concluded by summarizing the main points. Consider adding a thesis statement at the end of the introduction to guide the rest of the essay and use more transitional phrases to connect ideas between paragraphs. Varying your sentence structure will also improve the essay's flow.",
+          "content_feedback": "Your essay presents a clear argument, provides relevant examples and studies to support the argument, and discusses both views on the topic. To further strengthen your argument, consider exploring counterarguments in more depth and using precise language to support your claims. You effectively stayed focused on the topic of parental control over children's free time.",
+          "language_feedback": "Your essay is clear and easy to understand. To improve, focus on refining your grammar, vocabulary, and academic tone. Proofread your work to catch errors and consider using more formal language to maintain an academic tone. Improving sentence structure by varying sentence length and using more complex sentences will also be beneficial.",
+          "priority_actions": [
+            "Use more transitional phrases to connect ideas between paragraphs and vary sentence structure to improve the overall flow of the essay",
+            "Explore counterarguments in more depth to strengthen your argument and use more precise language to support your claims",
+            "Improve your grammar, vocabulary, and academic tone by proofreading your work and using more formal language"
+          ]
+        },
+        "moderation_log": [
+          {
+            "action": "rephrased",
+            "original": "You did well in presenting a clear opinion on the topic and providing relevant examples to support your argument, but consider improving your sentence structure, vocabulary, and transitions to enhance the overall flow and clarity of your essay.",
+            "reason": "Tone adjustment for constructive feedback"
+          },
+          {
+            "action": "removed",
+            "original": "While your essay is clear and easy to understand, there are areas for improvement in terms of grammar, vocabulary, and academic register.",
+            "reason": "Vagueness; replaced with more specific feedback"
+          },
+          {
+            "action": "rephrased",
+            "original": "Be sure to proofread your work to catch spelling and grammatical errors, and consider using more formal language to maintain an academic tone.",
+            "reason": "Clarified language for better understanding"
+          },
+          {
+            "action": "flagged",
+            "original": "It is a common belief that leasure activities for children should be organized by their mom and dad.",
+            "reason": "Potential bias in language; suggested rewording for neutrality"
+          }
+        ],
+        "moderation_summary": {
+          "changes_made": 4,
+          "tone_issues": 1,
+          "bias_flags": 1,
+          "vague_replacements": 1
+        }
+      },
+      "a5_elapsed_s": 2.0,
+      "total_elapsed_s": 27.0
+    },
+    "C": "The first paragraph is incomplete. You did not provide your writer's opinion as was required by the writing instruction. Full points will not be awarded to you by the examiner due to the incompletely developed paragraph. The writing format for the reasoning paragraphs should be on the compare and contrast side. Meaning, you compare the public point of view with your personal opinion. In this writing, there is no comparison point as required. The concluding paragraph is also in error as it gives a final opinion on the matter when it was not required. This is just a general discussion essay. It should not make a decision for the reader. That is not needed."
+  }
+}

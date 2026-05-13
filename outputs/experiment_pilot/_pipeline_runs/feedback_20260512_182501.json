@@ -1,0 +1,192 @@
+{
+  "essay_length": 2603,
+  "rubric_provided": true,
+  "a1_structure": {
+    "has_introduction": true,
+    "has_conclusion": true,
+    "paragraph_count": 3,
+    "logical_flow_score": 4,
+    "transition_quality_score": 4,
+    "overall_structure_score": 4,
+    "strengths": [
+      "Clear introduction that sets up the topic and thesis statement",
+      "Effective use of transitional phrases to connect ideas between paragraphs",
+      "Well-organized body paragraphs with clear topic sentences and supporting evidence"
+    ],
+    "weaknesses": [
+      "Somewhat repetitive language and sentence structures",
+      "Could benefit from more nuanced and detailed analysis in body paragraphs",
+      "Conclusion could be more concise and directly summarize the main points"
+    ],
+    "suggestions": [
+      "Vary sentence structure and vocabulary to improve clarity and readability",
+      "Add more specific examples and evidence to support claims in body paragraphs",
+      "Consider using a more concise conclusion that directly addresses the topic and thesis statement"
+    ]
+  },
+  "a1_elapsed_s": 1.4,
+  "a2_content": {
+    "thesis_present": true,
+    "thesis_quality_score": 4,
+    "prompt_adherence_score": 5,
+    "evidence_quality_score": 4,
+    "argumentation_depth_score": 4,
+    "overall_content_score": 4,
+    "rubric_coverage": [
+      {
+        "criterion": "thesis statement",
+        "status": "met",
+        "comment": "The essay clearly states the writer's position on the topic."
+      },
+      {
+        "criterion": "supporting evidence",
+        "status": "met",
+        "comment": "The essay provides relevant examples and explanations to support the writer's arguments."
+      },
+      {
+        "criterion": "argumentation depth",
+        "status": "partially_met",
+        "comment": "The essay presents some depth in discussing the importance of schools, but could explore more nuances and counterarguments."
+      },
+      {
+        "criterion": "topic relevance",
+        "status": "met",
+        "comment": "The essay stays focused on the topic and addresses the prompt directly."
+      }
+    ],
+    "strengths": [
+      "Clear thesis statement",
+      "Relevant examples and explanations",
+      "Organization and coherence"
+    ],
+    "weaknesses": [
+      "Limited depth in argumentation",
+      "Could explore more counterarguments",
+      "Some points feel a bit repetitive"
+    ],
+    "suggestions": [
+      "Explore more nuances in the argument",
+      "Address potential counterarguments",
+      "Vary sentence structure and vocabulary"
+    ]
+  },
+  "a2_elapsed_s": 1.4,
+  "a3_language": {
+    "grammar_score": 4,
+    "vocabulary_score": 4,
+    "academic_register_score": 4,
+    "clarity_score": 4,
+    "sentence_variety_score": 4,
+    "overall_language_score": 4,
+    "error_annotations": [
+      {
+        "original": "internet has gradually become a prevalent tool; therefore, it is used by many people every day",
+        "corrected": "the internet has gradually become a prevalent tool; therefore, it is used by many people every day",
+        "error_type": "grammar"
+      },
+      {
+        "original": "it is said that schools are no longer important any more",
+        "corrected": "it is said that schools are no longer important anymore",
+        "error_type": "grammar"
+      },
+      {
+        "original": "thus, internet can not replace them",
+        "corrected": "thus, the internet cannot replace them",
+        "error_type": "grammar"
+      },
+      {
+        "original": "everyone can be able to search for information any where and any time they need",
+        "corrected": "everyone is able to search for information anywhere and at any time they need",
+        "error_type": "grammar"
+      },
+      {
+        "original": "children who live in remote areas or in a special circumstance",
+        "corrected": "children who live in remote areas or under special circumstances",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "the lessons on the internet are more various",
+        "corrected": "the lessons on the internet are more varied",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "only by studying offline, teachers who are trained and have educational skills can help students and guide them on the right road",
+        "corrected": "only by studying offline can teachers, who are trained and have educational skills, help students and guide them on the right path",
+        "error_type": "grammar"
+      },
+      {
+        "original": "if children do not understand a question or a problem, they can get help immediately from the teachers and this prevent them from confusing",
+        "corrected": "if children do not understand a question or a problem, they can get help immediately from the teachers, and this prevents them from becoming confused",
+        "error_type": "grammar"
+      },
+      {
+        "original": "schools provide children proper educational programs and institutes",
+        "corrected": "schools provide children with proper educational programs and institutions",
+        "error_type": "grammar"
+      },
+      {
+        "original": "in the near future, I suppose that schools will still be an integral part of the society",
+        "corrected": "in the near future, I suppose that schools will still be an integral part of society",
+        "error_type": "grammar"
+      }
+    ]
+  },
+  "a3_elapsed_s": 6.8,
+  "a4_synthesized": {
+    "overall_score": 4,
+    "summary": "You did well in presenting a clear thesis statement, organizing your essay, and providing relevant examples to support your arguments. However, there are areas for improvement, such as varying sentence structure, exploring more nuances in your argument, and addressing potential counterarguments.",
+    "structure_feedback": "You effectively introduced the topic, used transitional phrases to connect ideas between paragraphs, and organized your body paragraphs with clear topic sentences and supporting evidence. Consider improving your conclusion by making it more concise and directly summarizing the main points. Additionally, vary your sentence structure and vocabulary to improve clarity and readability.",
+    "content_feedback": "Your essay presents a clear thesis statement, relevant examples, and organization. However, you could explore more nuances in your argument, address potential counterarguments, and provide more specific examples to support your claims. You stayed focused on the topic and addressed the prompt directly, which is a significant strength.",
+    "language_feedback": "You demonstrated a good command of grammar, vocabulary, and academic register. However, there were some grammatical errors, such as missing articles, incorrect verb forms, and word choice issues. Focus on correcting these errors to improve the overall clarity and effectiveness of your writing.",
+    "priority_actions": [
+      "Vary sentence structure and vocabulary to improve clarity and readability",
+      "Explore more nuances in your argument and address potential counterarguments",
+      "Review and correct grammatical errors to improve the overall quality of your writing"
+    ]
+  },
+  "a4_elapsed_s": 17.3,
+  "a5_moderated": {
+    "moderated_feedback": {
+      "overall_score": 4,
+      "summary": "You did well in presenting a clear thesis statement, organizing your essay, and providing relevant examples to support your arguments. However, there are areas for improvement, such as varying sentence structure, exploring more nuances in your argument, and addressing potential counterarguments.",
+      "structure_feedback": "You effectively introduced the topic, used transitional phrases to connect ideas between paragraphs, and organized your body paragraphs with clear topic sentences and supporting evidence. Consider improving your conclusion by making it more concise and directly summarizing the main points. Additionally, vary your sentence structure and vocabulary to improve clarity and readability.",
+      "content_feedback": "Your essay presents a clear thesis statement, relevant examples, and organization. However, you could explore more nuances in your argument, address potential counterarguments, and provide more specific examples to support your claims. You stayed focused on the topic and addressed the prompt directly, which is a significant strength.",
+      "language_feedback": "You demonstrated a good command of grammar, vocabulary, and academic register. However, there were some grammatical errors, such as missing articles, incorrect verb forms, and word choice issues. Focus on correcting these errors to improve the overall clarity and effectiveness of your writing.",
+      "priority_actions": [
+        "Vary sentence structure and vocabulary to improve clarity and readability",
+        "Explore more nuances in your argument and address potential counterarguments",
+        "Review and correct grammatical errors to improve the overall quality of your writing"
+      ]
+    },
+    "moderation_log": [
+      {
+        "action": "removed",
+        "original": "None",
+        "reason": "No harsh or condescending language was found in the original feedback."
+      },
+      {
+        "action": "no change",
+        "original": "None",
+        "reason": "The feedback already provided actionable suggestions and did not contain vague comments."
+      },
+      {
+        "action": "no change",
+        "original": "None",
+        "reason": "No bias against ESL or non-standard writing styles was detected in the original feedback."
+      },
+      {
+        "action": "retained",
+        "original": "None",
+        "reason": "The original feedback already highlighted the student's genuine strengths."
+      }
+    ],
+    "moderation_summary": {
+      "changes_made": 4,
+      "tone_issues": 0,
+      "bias_flags": 0,
+      "vague_replacements": 0
+    }
+  },
+  "a5_elapsed_s": 4.5,
+  "total_elapsed_s": 31.5
+}

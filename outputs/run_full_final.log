@@ -1,0 +1,266 @@
+11:31:49 | Experiment                | INFO    | === leaf_000 (essay 1/10) ===
+11:31:51 | Baseline                  | INFO    | Baseline: overall_score=4
+11:31:51 | Experiment                | INFO    | A done in 2.2s
+11:31:56 | Pipeline                  | INFO    | ============================================================
+11:31:56 | Pipeline                  | INFO    | PHASE 1: Evaluation (A1 Structure, A2 Content, A3 Language)
+11:31:56 | Pipeline                  | INFO    |   mode: sequential
+11:31:56 | Pipeline                  | INFO    | ============================================================
+11:31:57 | Agent1Structure           | INFO    | A1 Structure: overall=3, flow=4, transitions=2
+11:31:57 | Pipeline                  | INFO    | A1 done in 1.2s
+11:32:04 | Agent2Content             | INFO    | A2 Content: overall=4, thesis=4, evidence=4
+11:32:04 | Pipeline                  | INFO    | A2 done in 1.5s
+11:32:10 | Agent3Language            | INFO    | A3 Language: overall=4, grammar=4, vocabulary=4, errors=11
+11:32:10 | Pipeline                  | INFO    | A3 done in 1.8s
+11:32:14 | Pipeline                  | INFO    | ============================================================
+11:32:14 | Pipeline                  | INFO    | PHASE 2: Synthesis (A4 Synthesizer)
+11:32:14 | Pipeline                  | INFO    | ============================================================
+11:32:16 | Agent4Synthesizer         | INFO    | A4 Synthesizer: overall_score=4
+11:32:16 | Pipeline                  | INFO    | A4 done in 1.6s
+11:32:21 | Pipeline                  | INFO    | ============================================================
+11:32:21 | Pipeline                  | INFO    | PHASE 3: Moderation (A5 Moderator)
+11:32:21 | Pipeline                  | INFO    | ============================================================
+11:32:23 | Agent5Moderator           | INFO    | A5 Moderator: 5 changes (tone=0, bias=0, vague=1)
+11:32:23 | Pipeline                  | INFO    | A5 done in 1.7s
+11:32:23 | Pipeline                  | INFO    | ============================================================
+11:32:23 | Pipeline                  | INFO    | Pipeline complete in 26.8s
+11:32:23 | Pipeline                  | INFO    | Output saved to outputs/experiment_full/_pipeline_runs/feedback_20260513_113223.json
+11:32:23 | Experiment                | INFO    | B done in 26.8s
+11:32:23 | Experiment                | INFO    | saved leaf_000
+11:32:23 | Experiment                | INFO    | TPM cooldown: sleeping 30s before next essay...
+11:32:52 | Experiment                | INFO    | === leaf_001 (essay 2/10) ===
+11:32:54 | Baseline                  | INFO    | Baseline: overall_score=4
+11:32:54 | Experiment                | INFO    | A done in 1.7s
+11:32:59 | Pipeline                  | INFO    | ============================================================
+11:32:59 | Pipeline                  | INFO    | PHASE 1: Evaluation (A1 Structure, A2 Content, A3 Language)
+11:32:59 | Pipeline                  | INFO    |   mode: sequential
+11:32:59 | Pipeline                  | INFO    | ============================================================
+11:33:00 | Agent1Structure           | INFO    | A1 Structure: overall=4, flow=4, transitions=4
+11:33:00 | Pipeline                  | INFO    | A1 done in 1.0s
+11:33:06 | Agent2Content             | INFO    | A2 Content: overall=4, thesis=4, evidence=4
+11:33:06 | Pipeline                  | INFO    | A2 done in 1.4s
+11:33:13 | Agent3Language            | INFO    | A3 Language: overall=4, grammar=4, vocabulary=4, errors=10
+11:33:13 | Pipeline                  | INFO    | A3 done in 1.8s
+11:33:17 | Pipeline                  | INFO    | ============================================================
+11:33:17 | Pipeline                  | INFO    | PHASE 2: Synthesis (A4 Synthesizer)
+11:33:17 | Pipeline                  | INFO    | ============================================================
+11:33:18 | Agent4Synthesizer         | INFO    | A4 Synthesizer: overall_score=4
+11:33:18 | Pipeline                  | INFO    | A4 done in 1.4s
+11:33:23 | Pipeline                  | INFO    | ============================================================
+11:33:23 | Pipeline                  | INFO    | PHASE 3: Moderation (A5 Moderator)
+11:33:23 | Pipeline                  | INFO    | ============================================================
+11:33:25 | Agent5Moderator           | INFO    | A5 Moderator: 4 changes (tone=1, bias=0, vague=2)
+11:33:25 | Pipeline                  | INFO    | A5 done in 1.7s
+11:33:25 | Pipeline                  | INFO    | ============================================================
+11:33:25 | Pipeline                  | INFO    | Pipeline complete in 26.3s
+11:33:25 | Pipeline                  | INFO    | Output saved to outputs/experiment_full/_pipeline_runs/feedback_20260513_113325.json
+11:33:25 | Experiment                | INFO    | B done in 26.3s
+11:33:25 | Experiment                | INFO    | saved leaf_001
+11:33:25 | Experiment                | INFO    | TPM cooldown: sleeping 30s before next essay...
+11:33:54 | Experiment                | INFO    | === leaf_002 (essay 3/10) ===
+11:33:56 | Baseline                  | INFO    | Baseline: overall_score=3
+11:33:56 | Experiment                | INFO    | A done in 2.1s
+11:34:01 | Pipeline                  | INFO    | ============================================================
+11:34:01 | Pipeline                  | INFO    | PHASE 1: Evaluation (A1 Structure, A2 Content, A3 Language)
+11:34:01 | Pipeline                  | INFO    |   mode: sequential
+11:34:01 | Pipeline                  | INFO    | ============================================================
+11:34:02 | Agent1Structure           | INFO    | A1 Structure: overall=4, flow=4, transitions=4
+11:34:02 | Pipeline                  | INFO    | A1 done in 1.0s
+11:34:08 | Agent2Content             | INFO    | A2 Content: overall=4, thesis=4, evidence=4
+11:34:08 | Pipeline                  | INFO    | A2 done in 1.3s
+11:34:15 | Agent3Language            | INFO    | A3 Language: overall=3, grammar=3, vocabulary=3, errors=11
+11:34:15 | Pipeline                  | INFO    | A3 done in 1.7s
+11:34:19 | Pipeline                  | INFO    | ============================================================
+11:34:19 | Pipeline                  | INFO    | PHASE 2: Synthesis (A4 Synthesizer)
+11:34:19 | Pipeline                  | INFO    | ============================================================
+11:34:20 | Agent4Synthesizer         | INFO    | A4 Synthesizer: overall_score=4
+11:34:20 | Pipeline                  | INFO    | A4 done in 1.5s
+11:34:26 | Pipeline                  | INFO    | ============================================================
+11:34:26 | Pipeline                  | INFO    | PHASE 3: Moderation (A5 Moderator)
+11:34:26 | Pipeline                  | INFO    | ============================================================
+11:34:28 | Agent5Moderator           | INFO    | A5 Moderator: 4 changes (tone=2, bias=1, vague=1)
+11:34:28 | Pipeline                  | INFO    | A5 done in 2.0s
+11:34:28 | Pipeline                  | INFO    | ============================================================
+11:34:28 | Pipeline                  | INFO    | Pipeline complete in 26.5s
+11:34:28 | Pipeline                  | INFO    | Output saved to outputs/experiment_full/_pipeline_runs/feedback_20260513_113428.json
+11:34:28 | Experiment                | INFO    | B done in 26.5s
+11:34:28 | Experiment                | INFO    | saved leaf_002
+11:34:28 | Experiment                | INFO    | TPM cooldown: sleeping 30s before next essay...
+11:34:56 | Experiment                | INFO    | === leaf_003 (essay 4/10) ===
+11:34:58 | Baseline                  | INFO    | Baseline: overall_score=4
+11:34:58 | Experiment                | INFO    | A done in 1.8s
+11:35:03 | Pipeline                  | INFO    | ============================================================
+11:35:03 | Pipeline                  | INFO    | PHASE 1: Evaluation (A1 Structure, A2 Content, A3 Language)
+11:35:03 | Pipeline                  | INFO    |   mode: sequential
+11:35:03 | Pipeline                  | INFO    | ============================================================
+11:35:04 | Agent1Structure           | INFO    | A1 Structure: overall=4, flow=4, transitions=4
+11:35:04 | Pipeline                  | INFO    | A1 done in 1.2s
+11:35:11 | Agent2Content             | INFO    | A2 Content: overall=4, thesis=4, evidence=4
+11:35:11 | Pipeline                  | INFO    | A2 done in 1.5s
+11:35:18 | Agent3Language            | INFO    | A3 Language: overall=4, grammar=4, vocabulary=4, errors=8
+11:35:18 | Pipeline                  | INFO    | A3 done in 1.8s
+11:35:22 | Pipeline                  | INFO    | ============================================================
+11:35:22 | Pipeline                  | INFO    | PHASE 2: Synthesis (A4 Synthesizer)
+11:35:22 | Pipeline                  | INFO    | ============================================================
+11:35:24 | Agent4Synthesizer         | INFO    | A4 Synthesizer: overall_score=4
+11:35:24 | Pipeline                  | INFO    | A4 done in 1.8s
+11:35:29 | Pipeline                  | INFO    | ============================================================
+11:35:29 | Pipeline                  | INFO    | PHASE 3: Moderation (A5 Moderator)
+11:35:29 | Pipeline                  | INFO    | ============================================================
+11:35:30 | Agent5Moderator           | INFO    | A5 Moderator: 4 changes (tone=1, bias=0, vague=0)
+11:35:30 | Pipeline                  | INFO    | A5 done in 1.8s
+11:35:30 | Pipeline                  | INFO    | ============================================================
+11:35:30 | Pipeline                  | INFO    | Pipeline complete in 27.2s
+11:35:30 | Pipeline                  | INFO    | Output saved to outputs/experiment_full/_pipeline_runs/feedback_20260513_113530.json
+11:35:30 | Experiment                | INFO    | B done in 27.2s
+11:35:30 | Experiment                | INFO    | saved leaf_003
+11:35:30 | Experiment                | INFO    | TPM cooldown: sleeping 30s before next essay...
+11:35:59 | Experiment                | INFO    | === leaf_004 (essay 5/10) ===
+11:36:01 | Baseline                  | INFO    | Baseline: overall_score=4
+11:36:01 | Experiment                | INFO    | A done in 2.0s
+11:36:06 | Pipeline                  | INFO    | ============================================================
+11:36:06 | Pipeline                  | INFO    | PHASE 1: Evaluation (A1 Structure, A2 Content, A3 Language)
+11:36:06 | Pipeline                  | INFO    |   mode: sequential
+11:36:06 | Pipeline                  | INFO    | ============================================================
+11:36:08 | Agent1Structure           | INFO    | A1 Structure: overall=4, flow=4, transitions=3
+11:36:08 | Pipeline                  | INFO    | A1 done in 1.2s
+11:36:14 | Agent2Content             | INFO    | A2 Content: overall=4, thesis=4, evidence=4
+11:36:14 | Pipeline                  | INFO    | A2 done in 1.2s
+11:36:21 | Agent3Language            | INFO    | A3 Language: overall=3, grammar=3, vocabulary=3, errors=11
+11:36:21 | Pipeline                  | INFO    | A3 done in 1.9s
+11:36:24 | Pipeline                  | INFO    | ============================================================
+11:36:24 | Pipeline                  | INFO    | PHASE 2: Synthesis (A4 Synthesizer)
+11:36:24 | Pipeline                  | INFO    | ============================================================
+11:36:26 | Agent4Synthesizer         | INFO    | A4 Synthesizer: overall_score=4
+11:36:26 | Pipeline                  | INFO    | A4 done in 1.9s
+11:36:31 | Pipeline                  | INFO    | ============================================================
+11:36:31 | Pipeline                  | INFO    | PHASE 3: Moderation (A5 Moderator)
+11:36:31 | Pipeline                  | INFO    | ============================================================
+11:36:33 | Agent5Moderator           | INFO    | A5 Moderator: 4 changes (tone=1, bias=1, vague=1)
+11:36:33 | Pipeline                  | INFO    | A5 done in 2.0s
+11:36:33 | Pipeline                  | INFO    | ============================================================
+11:36:33 | Pipeline                  | INFO    | Pipeline complete in 27.0s
+11:36:33 | Pipeline                  | INFO    | Output saved to outputs/experiment_full/_pipeline_runs/feedback_20260513_113633.json
+11:36:33 | Experiment                | INFO    | B done in 27.0s
+11:36:33 | Experiment                | INFO    | saved leaf_004
+11:36:33 | Experiment                | INFO    | TPM cooldown: sleeping 30s before next essay...
+11:37:02 | Experiment                | INFO    | === leaf_005 (essay 6/10) ===
+11:37:04 | Baseline                  | INFO    | Baseline: overall_score=4
+11:37:04 | Experiment                | INFO    | A done in 2.3s
+11:37:09 | Pipeline                  | INFO    | ============================================================
+11:37:09 | Pipeline                  | INFO    | PHASE 1: Evaluation (A1 Structure, A2 Content, A3 Language)
+11:37:09 | Pipeline                  | INFO    |   mode: sequential
+11:37:09 | Pipeline                  | INFO    | ============================================================
+11:37:11 | Agent1Structure           | INFO    | A1 Structure: overall=4, flow=4, transitions=4
+11:37:11 | Pipeline                  | INFO    | A1 done in 1.2s
+11:37:17 | Agent2Content             | INFO    | A2 Content: overall=4, thesis=4, evidence=4
+11:37:17 | Pipeline                  | INFO    | A2 done in 1.4s
+11:37:24 | Agent3Language            | INFO    | A3 Language: overall=4, grammar=4, vocabulary=4, errors=11
+11:37:24 | Pipeline                  | INFO    | A3 done in 1.5s
+11:37:27 | Pipeline                  | INFO    | ============================================================
+11:37:27 | Pipeline                  | INFO    | PHASE 2: Synthesis (A4 Synthesizer)
+11:37:27 | Pipeline                  | INFO    | ============================================================
+11:37:29 | Agent4Synthesizer         | INFO    | A4 Synthesizer: overall_score=4
+11:37:29 | Pipeline                  | INFO    | A4 done in 1.6s
+11:37:34 | Pipeline                  | INFO    | ============================================================
+11:37:34 | Pipeline                  | INFO    | PHASE 3: Moderation (A5 Moderator)
+11:37:34 | Pipeline                  | INFO    | ============================================================
+11:37:36 | Agent5Moderator           | INFO    | A5 Moderator: 6 changes (tone=2, bias=0, vague=1)
+11:37:36 | Pipeline                  | INFO    | A5 done in 2.0s
+11:37:36 | Pipeline                  | INFO    | ============================================================
+11:37:36 | Pipeline                  | INFO    | Pipeline complete in 26.4s
+11:37:36 | Pipeline                  | INFO    | Output saved to outputs/experiment_full/_pipeline_runs/feedback_20260513_113736.json
+11:37:36 | Experiment                | INFO    | B done in 26.4s
+11:37:36 | Experiment                | INFO    | saved leaf_005
+11:37:36 | Experiment                | INFO    | TPM cooldown: sleeping 30s before next essay...
+11:38:05 | Experiment                | INFO    | === leaf_006 (essay 7/10) ===
+11:38:07 | Baseline                  | INFO    | Baseline: overall_score=4
+11:38:07 | Experiment                | INFO    | A done in 2.1s
+11:38:12 | Pipeline                  | INFO    | ============================================================
+11:38:12 | Pipeline                  | INFO    | PHASE 1: Evaluation (A1 Structure, A2 Content, A3 Language)
+11:38:12 | Pipeline                  | INFO    |   mode: sequential
+11:38:12 | Pipeline                  | INFO    | ============================================================
+11:38:13 | Agent1Structure           | INFO    | A1 Structure: overall=4, flow=4, transitions=4
+11:38:13 | Pipeline                  | INFO    | A1 done in 1.1s
+11:38:19 | Agent2Content             | INFO    | A2 Content: overall=4, thesis=4, evidence=3
+11:38:19 | Pipeline                  | INFO    | A2 done in 1.4s
+11:38:26 | Agent3Language            | INFO    | A3 Language: overall=4, grammar=4, vocabulary=4, errors=10
+11:38:26 | Pipeline                  | INFO    | A3 done in 1.5s
+11:38:30 | Pipeline                  | INFO    | ============================================================
+11:38:30 | Pipeline                  | INFO    | PHASE 2: Synthesis (A4 Synthesizer)
+11:38:30 | Pipeline                  | INFO    | ============================================================
+11:38:31 | Agent4Synthesizer         | INFO    | A4 Synthesizer: overall_score=4
+11:38:31 | Pipeline                  | INFO    | A4 done in 1.7s
+11:38:36 | Pipeline                  | INFO    | ============================================================
+11:38:36 | Pipeline                  | INFO    | PHASE 3: Moderation (A5 Moderator)
+11:38:36 | Pipeline                  | INFO    | ============================================================
+11:38:38 | Agent5Moderator           | WARNING | moderation_log count (3) != changes_made (0) — correcting
+11:38:38 | Agent5Moderator           | INFO    | A5 Moderator: 3 changes (tone=0, bias=0, vague=0)
+11:38:38 | Pipeline                  | INFO    | A5 done in 1.4s
+11:38:38 | Pipeline                  | INFO    | ============================================================
+11:38:38 | Pipeline                  | INFO    | Pipeline complete in 26.0s
+11:38:38 | Pipeline                  | INFO    | Output saved to outputs/experiment_full/_pipeline_runs/feedback_20260513_113838.json
+11:38:38 | Experiment                | INFO    | B done in 26.0s
+11:38:38 | Experiment                | INFO    | saved leaf_006
+11:38:38 | Experiment                | INFO    | TPM cooldown: sleeping 30s before next essay...
+11:39:07 | Experiment                | INFO    | === leaf_007 (essay 8/10) ===
+11:39:08 | Baseline                  | INFO    | Baseline: overall_score=4
+11:39:08 | Experiment                | INFO    | A done in 1.6s
+11:39:13 | Pipeline                  | INFO    | ============================================================
+11:39:13 | Pipeline                  | INFO    | PHASE 1: Evaluation (A1 Structure, A2 Content, A3 Language)
+11:39:13 | Pipeline                  | INFO    |   mode: sequential
+11:39:13 | Pipeline                  | INFO    | ============================================================
+11:39:14 | Agent1Structure           | INFO    | A1 Structure: overall=4, flow=4, transitions=3
+11:39:14 | Pipeline                  | INFO    | A1 done in 1.1s
+11:39:21 | Agent2Content             | INFO    | A2 Content: overall=4, thesis=4, evidence=4
+11:39:21 | Pipeline                  | INFO    | A2 done in 1.2s
+11:39:27 | Agent3Language            | INFO    | A3 Language: overall=3, grammar=3, vocabulary=4, errors=14
+11:39:27 | Pipeline                  | INFO    | A3 done in 1.8s
+11:39:32 | Pipeline                  | INFO    | ============================================================
+11:39:32 | Pipeline                  | INFO    | PHASE 2: Synthesis (A4 Synthesizer)
+11:39:32 | Pipeline                  | INFO    | ============================================================
+11:39:34 | Agent4Synthesizer         | INFO    | A4 Synthesizer: overall_score=4
+11:39:34 | Pipeline                  | INFO    | A4 done in 1.8s
+11:39:39 | Pipeline                  | INFO    | ============================================================
+11:39:39 | Pipeline                  | INFO    | PHASE 3: Moderation (A5 Moderator)
+11:39:39 | Pipeline                  | INFO    | ============================================================
+11:39:41 | Agent5Moderator           | INFO    | A5 Moderator: 4 changes (tone=1, bias=1, vague=2)
+11:39:41 | Pipeline                  | INFO    | A5 done in 1.7s
+11:39:41 | Pipeline                  | INFO    | ============================================================
+11:39:41 | Pipeline                  | INFO    | Pipeline complete in 27.6s
+11:39:41 | Pipeline                  | INFO    | Output saved to outputs/experiment_full/_pipeline_runs/feedback_20260513_113941.json
+11:39:41 | Experiment                | INFO    | B done in 27.6s
+11:39:41 | Experiment                | INFO    | saved leaf_007
+11:39:41 | Experiment                | INFO    | TPM cooldown: sleeping 30s before next essay...
+11:40:09 | Experiment                | INFO    | === leaf_008 (essay 9/10) ===
+11:40:11 | Baseline                  | INFO    | Baseline: overall_score=4
+11:40:11 | Experiment                | INFO    | A done in 1.8s
+11:40:16 | Pipeline                  | INFO    | ============================================================
+11:40:16 | Pipeline                  | INFO    | PHASE 1: Evaluation (A1 Structure, A2 Content, A3 Language)
+11:40:16 | Pipeline                  | INFO    |   mode: sequential
+11:40:16 | Pipeline                  | INFO    | ============================================================
+11:40:16 | Agent1Structure           | INFO    | A1 Structure: overall=4, flow=4, transitions=4
+11:40:16 | Pipeline                  | INFO    | A1 done in -0.1s
+11:40:21 | Agent2Content             | WARNING | Rate limited (429), waiting 3s...
+11:40:25 | Agent2Content             | WARNING | Rate limited (429), waiting 6s...
+11:40:31 | Agent2Content             | WARNING | Rate limited (429), waiting 12s...
+11:40:44 | Agent2Content             | WARNING | Rate limited (429), waiting 24s...
+11:41:07 | Agent2Content             | WARNING | Rate limited (429), waiting 48s...
+Traceback (most recent call last):
+  File "/home/queipo/sogang/feedback-agents/run_experiment.py", line 111, in <module>
+    b_raw = run_pipeline(
+            ^^^^^^^^^^^^^
+  File "/home/queipo/sogang/feedback-agents/pipeline.py", line 121, in run_pipeline
+    results["a2_content"] = a2.evaluate(essay, rubric)
+                            ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/queipo/sogang/feedback-agents/agents/agent2_content.py", line 69, in evaluate
+    result, raw = self.generate_json(
+                  ^^^^^^^^^^^^^^^^^^^
+  File "/home/queipo/sogang/feedback-agents/agents/base.py", line 265, in generate_json
+    raw = self.generate(prompt, max_new_tokens, temperature, system_prompt)
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/queipo/sogang/feedback-agents/agents/base.py", line 125, in generate
+    return self._generate_groq(prompt, max_new_tokens, temperature, system_prompt)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/queipo/sogang/feedback-agents/agents/base.py", line 216, in _generate_groq
+    raise RuntimeError("Groq API rate limit exceeded after 5 retries")
+RuntimeError: Groq API rate limit exceeded after 5 retries

@@ -1,0 +1,85 @@
+# ══════════════════════════════════════════════════════════════════
+# QUILL — Quintet of Intelligent LLMs for Learning
+# Central Configuration
+# ══════════════════════════════════════════════════════════════════
+
+project:
+  name: "QUILL"
+  full_name: "Quintet of Intelligent LLMs for Learning"
+  version: "1.0.0"
+
+# ── Backend ──────────────────────────────────────────────────────
+# "groq"   = Groq API (free, ultra-fast, Llama 70B)
+# "gemini" = Google Gemini API (free, fast)
+# "local"  = Local model on GPU (slow, needs VRAM)
+backend: "groq"
+
+# ── Groq API Config (used when backend: "groq") ─────────────────
+groq:
+  model: "llama-3.3-70b-versatile"  # or "qwen-qwq-32b", "gemma2-9b-it"
+  api_key_env: "GROQ_API_KEY"       # env variable name
+
+# ── Gemini API Config (used when backend: "gemini") ──────────────
+gemini:
+  model: "gemini-2.5-flash"
+  min_delay_s: 10
+  api_key_env: "GEMINI_API_KEY"   # name of env variable holding the API key
+
+# ── Local Model Config (used when backend: "local") ──────────────
+models:
+  agent1_structure: "./models/qwen2.5-7b"
+  agent2_content: "./models/qwen2.5-7b"
+  agent3_language: "./models/qwen2.5-7b"
+  agent4_synthesizer: "./models/qwen2.5-7b"
+  agent5_moderator: "./models/qwen2.5-7b"
+
+device: "cuda"  # "cuda" or "cpu"
+quantization: "4bit"  # "4bit", "8bit", or "none"
+
+# ── Generation Parameters ─────────────────────────────────────────
+generation:
+  do_sample: true
+  top_p: 0.9
+  repetition_penalty: 1.3
+
+# ── Paths ─────────────────────────────────────────────────────────
+paths:
+  outputs: "./outputs"
+
+# ── A1: Structure Analyzer ────────────────────────────────────────
+structure:
+  temperature: 0.2
+  max_tokens: 600
+
+# ── A2: Content Alignment ────────────────────────────────────────
+content:
+  temperature: 0.2
+  max_tokens: 600
+
+# ── A3: Language Quality ─────────────────────────────────────────
+language:
+  temperature: 0.2
+  max_tokens: 600
+
+# ── A4: Feedback Synthesizer ─────────────────────────────────────
+synthesizer:
+  temperature: 0.5
+  max_tokens: 1100
+
+# ── A5: Moderation Filter ───────────────────────────────────────
+moderator:
+  temperature: 0.2
+  max_tokens: 900
+
+# ── Single-Prompt Baseline (for comparison experiment) ──────────
+baseline:
+  model: "./models/qwen2.5-7b"
+  temperature: 0.4
+  max_tokens: 1000
+
+# ── Pipeline Settings ────────────────────────────────────────────
+pipeline:
+  parallel_evaluation: false  # true = run A1,A2,A3 in parallel (needs ~3x VRAM)
+  save_intermediate: true     # save per-agent outputs
+  save_final_json: true
+  max_json_retries: 2         # retry on JSON parse failure

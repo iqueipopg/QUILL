@@ -1,0 +1,198 @@
+{
+  "essay_length": 1401,
+  "rubric_provided": true,
+  "a1_structure": {
+    "has_introduction": true,
+    "has_conclusion": false,
+    "paragraph_count": 3,
+    "logical_flow_score": 4,
+    "transition_quality_score": 2,
+    "overall_structure_score": 3,
+    "strengths": [
+      "The essay starts with a clear and engaging introduction that sets the context for the story",
+      "The narrative is easy to follow, and the events are presented in a chronological order"
+    ],
+    "weaknesses": [
+      "The essay lacks a clear conclusion to summarize the main points and reiterate the significance of the person's influence",
+      "Transitions between paragraphs are not smooth, and the connections between ideas could be improved"
+    ],
+    "suggestions": [
+      "Add a concluding paragraph to summarize the impact of the physics teacher on the student's life and studies",
+      "Use transitional phrases to connect ideas between paragraphs and improve the flow of the narrative"
+    ]
+  },
+  "a1_elapsed_s": 1.2,
+  "a2_content": {
+    "thesis_present": true,
+    "thesis_quality_score": 4,
+    "prompt_adherence_score": 5,
+    "evidence_quality_score": 4,
+    "argumentation_depth_score": 3,
+    "overall_content_score": 4,
+    "rubric_coverage": [
+      {
+        "criterion": "thesis statement",
+        "status": "met",
+        "comment": "The essay clearly states how a person changed the student's life"
+      },
+      {
+        "criterion": "supporting evidence",
+        "status": "met",
+        "comment": "The essay provides specific examples of how the physics teacher helped the student"
+      },
+      {
+        "criterion": "argumentation depth",
+        "status": "partially_met",
+        "comment": "The essay could delve deeper into the impact of the teacher's methods on the student's learning"
+      },
+      {
+        "criterion": "topic relevance",
+        "status": "met",
+        "comment": "The essay stays focused on the story of the person who changed the student's life"
+      }
+    ],
+    "strengths": [
+      "Clear narrative structure",
+      "Effective use of personal anecdote to illustrate the impact of the physics teacher",
+      "Specific examples of how the teacher's methods improved the student's learning"
+    ],
+    "weaknesses": [
+      "Limited analysis of the teacher's methods and their broader implications",
+      "Could benefit from more nuanced exploration of the student's emotional journey"
+    ],
+    "suggestions": [
+      "Consider adding more depth to the analysis of the teacher's methods and their impact on the student's learning",
+      "Explore the broader implications of the teacher's approach for education or personal growth",
+      "Use more descriptive language to bring the story to life and engage the reader"
+    ]
+  },
+  "a2_elapsed_s": 1.5,
+  "a3_language": {
+    "grammar_score": 4,
+    "vocabulary_score": 4,
+    "academic_register_score": 4,
+    "clarity_score": 4,
+    "sentence_variety_score": 3,
+    "overall_language_score": 4,
+    "error_annotations": [
+      {
+        "original": "Back in my senior high school time",
+        "corrected": "During my senior high school years",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "causing my failure of every quiz and exam",
+        "corrected": "causing me to fail every quiz and exam",
+        "error_type": "grammar"
+      },
+      {
+        "original": "I made every effort to attempt to improve my scores",
+        "corrected": "I made every effort to improve my scores",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "including purchasing online courses and attending to cram schools",
+        "corrected": "including purchasing online courses and attending cram schools",
+        "error_type": "grammar"
+      },
+      {
+        "original": "At a night after attending a cram school",
+        "corrected": "One night, after attending a cram school",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "I was deliberating whether I have to abandon my dream",
+        "corrected": "I was deliberating whether I had to abandon my dream",
+        "error_type": "grammar"
+      },
+      {
+        "original": "Being depressed, I couldn't help but shed tears in public, though it was shameful",
+        "corrected": "Overcome with depression, I couldn't help but shed tears in public, although it was shameful",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "He told me that he was a physics teacher with over 30 years of teaching experience",
+        "corrected": "He told me that he was a physics teacher with over 30 years' teaching experience",
+        "error_type": "punctuation"
+      },
+      {
+        "original": "and he had opened a cram school with a few students, most of which had encountered the same problem as mine",
+        "corrected": "and he had opened a cram school with a few students who had encountered the same problem as I had",
+        "error_type": "grammar"
+      },
+      {
+        "original": "He invited me to audit his class, and soon he started to teach physics concepts in a brand-new way that everyone could easily learn",
+        "corrected": "He invited me to audit his class, where he soon started teaching physics concepts in a brand-new way that everyone could easily learn",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "He once said, 'All techniques and knowledge are written to our mind after being comprehended'",
+        "corrected": "He once said, 'All techniques and knowledge are written in our minds after being comprehended'",
+        "error_type": "word_choice"
+      }
+    ]
+  },
+  "a3_elapsed_s": 1.8,
+  "a4_synthesized": {
+    "overall_score": 4,
+    "summary": "You did well in presenting a clear and engaging narrative about the person who changed your life, with a strong introduction and effective use of personal anecdotes. However, there are areas for improvement, including adding a conclusion, smoothing transitions, and delving deeper into analysis.",
+    "structure_feedback": "You start with a clear and engaging introduction that sets the context for the story, and the narrative is easy to follow with events presented in chronological order. However, consider improving the transitions between paragraphs and adding a concluding paragraph to summarize the impact of the physics teacher on your life and studies.",
+    "content_feedback": "Your essay provides a clear narrative structure, effectively uses personal anecdotes, and includes specific examples of how the teacher's methods improved your learning. To further strengthen your content, consider adding more depth to the analysis of the teacher's methods and their broader implications, and explore the student's emotional journey in more detail.",
+    "language_feedback": "You demonstrate strong grammar, vocabulary, and academic register skills, with a clarity score of 4. However, there are opportunities to improve sentence variety and address specific word choice and grammar errors, such as those annotated in the error annotations, to enhance the overall flow and engagement of your writing.",
+    "priority_actions": [
+      "Add a concluding paragraph to summarize the impact of the physics teacher on your life and studies",
+      "Use transitional phrases to connect ideas between paragraphs and improve the flow of the narrative",
+      "Delve deeper into the analysis of the teacher's methods and their broader implications for education or personal growth"
+    ]
+  },
+  "a4_elapsed_s": 1.6,
+  "a5_moderated": {
+    "moderated_feedback": {
+      "overall_score": 4,
+      "summary": "You presented a clear and engaging narrative about the person who changed your life, with a strong introduction and effective use of personal anecdotes. To further improve, consider adding a conclusion, smoothing transitions, and delving deeper into analysis.",
+      "structure_feedback": "Your introduction is clear and engaging, setting the context for the story, and the narrative is easy to follow with events in chronological order. Consider improving transitions between paragraphs and adding a concluding paragraph to summarize the impact of the physics teacher on your life and studies.",
+      "content_feedback": "Your essay provides a clear narrative structure, effectively uses personal anecdotes, and includes specific examples of how the teacher's methods improved your learning. To strengthen your content, consider adding more depth to the analysis of the teacher's methods and their broader implications, and explore the student's emotional journey in more detail.",
+      "language_feedback": "You demonstrate strong grammar, vocabulary, and academic register skills, with a clarity score of 4. There are opportunities to improve sentence variety and address specific word choice and grammar errors to enhance the overall flow and engagement of your writing.",
+      "priority_actions": [
+        "Add a concluding paragraph to summarize the impact of the physics teacher on your life and studies",
+        "Use transitional phrases to connect ideas between paragraphs and improve the flow of the narrative",
+        "Delve deeper into the analysis of the teacher's methods and their broader implications for education or personal growth"
+      ]
+    },
+    "moderation_log": [
+      {
+        "action": "removed",
+        "original": "However, there are areas for improvement",
+        "reason": "Removed vague comment and rephrased for clarity"
+      },
+      {
+        "action": "rephrased",
+        "original": "consider improving the transitions between paragraphs and adding a concluding paragraph",
+        "reason": "Rephrased for clarity and concision"
+      },
+      {
+        "action": "removed",
+        "original": "such as those annotated in the error annotations",
+        "reason": "Removed reference to external annotations for clarity"
+      },
+      {
+        "action": "rephrased",
+        "original": "to further strengthen your content",
+        "reason": "Rephrased for clarity and concision"
+      },
+      {
+        "action": "removed",
+        "original": "with a clarity score of 4",
+        "reason": "Removed redundant information"
+      }
+    ],
+    "moderation_summary": {
+      "changes_made": 5,
+      "tone_issues": 0,
+      "bias_flags": 0,
+      "vague_replacements": 1
+    }
+  },
+  "a5_elapsed_s": 1.7,
+  "total_elapsed_s": 26.8
+}

@@ -1,0 +1,185 @@
+{
+  "essay_length": 1578,
+  "rubric_provided": true,
+  "a1_structure": {
+    "has_introduction": true,
+    "has_conclusion": true,
+    "paragraph_count": 3,
+    "logical_flow_score": 4,
+    "transition_quality_score": 4,
+    "overall_structure_score": 4,
+    "strengths": [
+      "Clear introduction that sets up the topic",
+      "Use of transitional phrases to connect ideas between paragraphs",
+      "Conclusion that summarizes the main point"
+    ],
+    "weaknesses": [
+      "Body paragraphs could be more clearly defined with topic sentences",
+      "Transitions within paragraphs could be smoother"
+    ],
+    "suggestions": [
+      "Use more specific topic sentences to guide each body paragraph",
+      "Vary transition words and phrases to improve flow",
+      "Consider adding more paragraphs to fully develop the discussion"
+    ]
+  },
+  "a1_elapsed_s": 1.1,
+  "a2_content": {
+    "thesis_present": true,
+    "thesis_quality_score": 4,
+    "prompt_adherence_score": 5,
+    "evidence_quality_score": 3,
+    "argumentation_depth_score": 4,
+    "overall_content_score": 4,
+    "rubric_coverage": [
+      {
+        "criterion": "Thesis Statement",
+        "status": "met",
+        "comment": "The essay presents a clear thesis statement in the conclusion."
+      },
+      {
+        "criterion": "Supporting Evidence",
+        "status": "partially_met",
+        "comment": "The essay provides some relevant points but lacks concrete examples or data to support the arguments."
+      },
+      {
+        "criterion": "Argumentation Depth",
+        "status": "met",
+        "comment": "The essay explores both sides of the argument with reasonable depth."
+      },
+      {
+        "criterion": "Topic Relevance",
+        "status": "met",
+        "comment": "The essay stays focused on the topic of contacting intelligent life forms on other planets."
+      }
+    ],
+    "strengths": [
+      "Presents a clear thesis statement",
+      "Explores both sides of the argument",
+      "Stays focused on the topic"
+    ],
+    "weaknesses": [
+      "Lacks concrete evidence to support arguments",
+      "Could benefit from more detailed analysis of the potential risks and benefits"
+    ],
+    "suggestions": [
+      "Provide more specific examples or data to support the arguments",
+      "Consider discussing the potential long-term implications of contacting intelligent life forms",
+      "Explore the ethical considerations of initiating contact with other life forms"
+    ]
+  },
+  "a2_elapsed_s": 1.4,
+  "a3_language": {
+    "grammar_score": 4,
+    "vocabulary_score": 4,
+    "academic_register_score": 4,
+    "clarity_score": 4,
+    "sentence_variety_score": 4,
+    "overall_language_score": 4,
+    "error_annotations": [
+      {
+        "original": "there are other shapes of existence",
+        "corrected": "there are other forms of existence",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "connecting to extraterrestrial beings means we will able to approach",
+        "corrected": "connecting to extraterrestrial beings means we will be able to approach",
+        "error_type": "grammar"
+      },
+      {
+        "original": "so this activity is the opportunity to explore alien civilizations",
+        "corrected": "thus, this activity presents an opportunity to explore alien civilizations",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "If life exists in actual fact on another planet",
+        "corrected": "If life actually exists on another planet",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "then the data about their lifestyle, culture, history or language can be a valuable source that enriches human knowledge",
+        "corrected": "then the data about their lifestyle, culture, history, or language can be a valuable source that enriches human knowledge",
+        "error_type": "punctuation"
+      },
+      {
+        "original": "those life forms might possess a large amount of information about the galaxy or the universe which humans have not acquired",
+        "corrected": "those life forms might possess a large amount of information about the galaxy or the universe that humans have not acquired",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "This somehow helps us in finding a suitable place to inhabit in case the world's population grows too fast or uncontrollably",
+        "corrected": "This could somehow help us find a suitable place to inhabit if the world's population grows too fast or uncontrollably",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "Because of the uncertain details of alien beings, the language barrier seems to be the big problem",
+        "corrected": "Due to the uncertain details of alien beings, the language barrier seems to be a significant problem",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "messages sent from Earth could have a different meaning for them, the misunderstanding can put the human in danger when they negatively interpret the messages",
+        "corrected": "messages sent from Earth could have a different meaning for them; the misunderstanding can put humans in danger if they negatively interpret the messages",
+        "error_type": "punctuation"
+      },
+      {
+        "original": "With advanced technology compared to what we got",
+        "corrected": "With advanced technology compared to what we have",
+        "error_type": "grammar"
+      }
+    ]
+  },
+  "a3_elapsed_s": 1.5,
+  "a4_synthesized": {
+    "overall_score": 4,
+    "summary": "You did well in presenting a clear introduction, exploring both sides of the argument, and staying focused on the topic, but consider improving the clarity of body paragraphs, providing concrete evidence, and refining language usage.",
+    "structure_feedback": "You did well in setting up the topic with a clear introduction and using transitional phrases to connect ideas between paragraphs. Your conclusion effectively summarizes the main point. To improve, consider using more specific topic sentences to guide each body paragraph, varying transition words and phrases, and possibly adding more paragraphs to fully develop the discussion.",
+    "content_feedback": "Your essay presents a clear thesis statement, explores both sides of the argument with reasonable depth, and stays focused on the topic. However, it lacks concrete evidence to support arguments and could benefit from more detailed analysis of potential risks and benefits. Consider providing specific examples or data and discussing the long-term implications and ethical considerations of contacting intelligent life forms.",
+    "language_feedback": "You demonstrated good grammar, vocabulary, and academic register skills, with a clarity and sentence variety score of 4. Nevertheless, there were some errors in word choice, grammar, and punctuation. Pay attention to correcting these, such as using precise word choices, ensuring grammatical accuracy, and using proper punctuation to enhance the overall clarity of your writing.",
+    "priority_actions": [
+      "Use more specific topic sentences to guide each body paragraph and vary transition words and phrases",
+      "Provide concrete evidence, such as specific examples or data, to support your arguments",
+      "Refine your language usage by correcting errors in word choice, grammar, and punctuation"
+    ]
+  },
+  "a4_elapsed_s": 1.7,
+  "a5_moderated": {
+    "moderated_feedback": {
+      "overall_score": 4,
+      "summary": "You did well in presenting a clear introduction, exploring both sides of the argument, and staying focused on the topic, but consider improving the clarity of body paragraphs, providing concrete evidence, and refining language usage.",
+      "structure_feedback": "You effectively set up the topic with a clear introduction and used transitional phrases to connect ideas between paragraphs. Your conclusion effectively summarizes the main point. To improve, consider using more specific topic sentences to guide each body paragraph, varying transition words and phrases, and possibly adding more paragraphs to fully develop the discussion.",
+      "content_feedback": "Your essay presents a clear thesis statement, explores both sides of the argument with reasonable depth, and stays focused on the topic. However, it lacks concrete evidence to support arguments and could benefit from more detailed analysis of potential risks and benefits. Consider providing specific examples or data and discussing the long-term implications and ethical considerations of contacting intelligent life forms.",
+      "language_feedback": "You demonstrated good grammar, vocabulary, and academic register skills, with a clarity and sentence variety score of 4. Nevertheless, there were some errors in word choice, grammar, and punctuation. Pay attention to correcting these, such as using precise word choices, ensuring grammatical accuracy, and using proper punctuation to enhance the overall clarity of your writing.",
+      "priority_actions": [
+        "Use more specific topic sentences to guide each body paragraph and vary transition words and phrases",
+        "Provide concrete evidence, such as specific examples or data, to support your arguments",
+        "Refine your language usage by correcting errors in word choice, grammar, and punctuation"
+      ]
+    },
+    "moderation_log": [
+      {
+        "action": "removed",
+        "original": "none",
+        "reason": "No harsh or condescending language found in the original feedback."
+      },
+      {
+        "action": "no change",
+        "original": "none",
+        "reason": "No vague comments found in the original feedback that required replacement with actionable suggestions."
+      },
+      {
+        "action": "no change",
+        "original": "none",
+        "reason": "No bias against ESL or non-standard writing styles found in the original feedback."
+      }
+    ],
+    "moderation_summary": {
+      "changes_made": 3,
+      "tone_issues": 0,
+      "bias_flags": 0,
+      "vague_replacements": 0
+    }
+  },
+  "a5_elapsed_s": 1.4,
+  "total_elapsed_s": 26.0
+}

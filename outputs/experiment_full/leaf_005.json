@@ -1,0 +1,248 @@
+{
+  "essay_id": "leaf_005",
+  "essay_text": "Nowadays environmental problems have been one of the most challenges that almost every country is facing. Although there is a common belief that governments hold accountable for the course of environmental protection, I am strongly convinced that small efforts taken by individuals will make major changes in our planet. \nIt is true that many people believe environmental issues can only be tackled by governments and international organization. Obviously, the problems of global warming or desertification are happening around the world with the extent varying from places to places, which requires the cooperation from countries around the world to deal with. As a result, only the world's intergovernmental actions enable to mobilize enormous resources to adopt multidisciplinary approaches for environmental protection. Secondly, with the power of enactment and enforcement of laws, especially environmental protection law or renewable energy law, government can adjust social behaviors towards a more sustainable and low-carbon society. \nOn the other hand, I believe that there are many actions that individuals can take to alleviate environmental degradation by adopting an eco-friendly lifestyle. Firstly, we should recycle waste materials such as paper or glass and buy products with biodegradable packaging which decomposes easily. Secondly, instead of private cars, we should use public transport or bicycle as a means of transport more often. By doing so, the toxic emissions from vehicles, which are one of the main factors contributing to air pollution, would reduce significantly. Finally, planting more trees every year in our garden would be helpful to decrease the carbon footprint as well. \nIn short, environmental protection requires concrete actions from both the government and individuals worldwide. Only by doing this can we assure that we could hand this beautiful planet to our next generation and the next generation after.",
+  "prompt": "IELTS Task 2 topic: individuals to provide environmental problems solution",
+  "elapsed": {
+    "A": 2.2903261184692383,
+    "B": 26.432395219802856
+  },
+  "blind": {
+    "X": {
+      "source": "A_baseline",
+      "text": "Your essay presents a clear argument on the role of individuals in solving environmental problems, with a well-structured introduction and conclusion, although there are areas for improvement in terms of content depth and language precision. You effectively address the prompt and provide relevant examples to support your stance.\n\nYou did well in organizing your essay into a clear introduction, body, and conclusion. The transitions between paragraphs are generally smooth, and you use transitional phrases effectively. However, consider improving the logical flow within paragraphs by using more nuanced linking words and phrases to connect your ideas. Additionally, the conclusion could be more detailed, summarizing the main points rather than just restating the thesis.\n\nYour thesis statement is clear and well-supported by the arguments presented. You provide a good balance of views, acknowledging the role of governments while arguing for individual responsibility. The examples given, such as recycling, using public transport, and planting trees, are relevant and practical. Consider providing more evidence or statistics to strengthen your arguments and make them more convincing. Additionally, exploring the challenges or limitations of individual actions could add depth to your discussion.\n\nYour vocabulary is adequate, and you use a variety of sentence structures. However, there are moments where the language could be more precise and formal. For instance, using phrases like 'one of the most challenges' could be rephrased for better clarity and grammar. Consider enhancing your academic register by using more sophisticated vocabulary and ensuring that your sentences are grammatically correct. Clarity is generally good, but some sentences are a bit long and could be broken up for easier reading.\n\nGoing forward, focus on these things: Enhance the conclusion to summarize main points and reiterate the thesis with more depth; Incorporate more evidence or statistics to support your arguments; and Refine your language for better precision, formality, and grammatical accuracy."
+    },
+    "Y": {
+      "source": "B_multiagent",
+      "text": "You did well in presenting a clear thesis statement, providing relevant examples, and organizing your essay effectively. To further improve, consider enhancing the depth of your discussion and addressing potential counterarguments. Your writing demonstrates good structure, content, and language skills, with some areas for refinement in analysis, evidence, and word choice.\n\nYou effectively introduced the topic, presented body paragraphs with clear topic sentences and supporting details, and used transitional phrases to connect ideas. To develop your paragraphs further, consider adding more evidence or examples to support your claims and using more varied and sophisticated transitional phrases to connect ideas between paragraphs.\n\nYour essay clearly states your position on individual efforts in environmental protection, provides relevant examples, and stays focused on the topic. To add more depth to your discussion, consider analyzing the interplay between individual and governmental actions and exploring potential challenges or counterarguments. Think about adding more detailed analysis of the impact of individual actions on environmental protection and addressing potential counterarguments or challenges to individual actions.\n\nYour writing demonstrates good grammar, vocabulary, and clarity, with some minor errors in word choice, grammar, and punctuation. To refine your writing, focus on precise word choice and ensure that your sentences are varied and grammatically correct. For example, instead of 'have been one of the most challenges', consider 'are one of the most significant challenges', and instead of 'individuals will make major changes in our planet', consider 'individuals can make a significant impact on our planet'.\n\nGoing forward, focus on these things: Enhance your discussion with more nuanced analysis of the relationship between individual and governmental efforts in environmental protection; Address potential counterarguments or challenges to individual actions in your essay; and Refine your word choice and grammar to enhance clarity and precision in your writing.\n\nSpecific corrections noted in your essay:\n- 'have been one of the most challenges' → 'are one of the most significant challenges' (word_choice)\n- 'that almost every country is facing' → 'that almost every country faces' (grammar)\n- 'individuals will make major changes in our planet' → 'individuals can make a significant impact on our planet' (word_choice)\n- 'It is true that many people believe environmental issues can only be tackled by governments and international organization' → 'It is true that many people believe environmental issues can only be tackled by governments and international organizations' (spelling)\n- 'which requires the cooperation from countries around the world to deal with' → 'which requires cooperation from countries around the world to address' (word_choice)\n- 'As a result, only the world's intergovernmental actions enable to mobilize enormous resources' → 'As a result, only intergovernmental actions can mobilize enormous resources' (grammar)\n- 'to adopt multidisciplinary approaches for environmental protection' → 'to adopt multidisciplinary approaches to environmental protection' (preposition)\n- 'government can adjust social behaviors towards a more sustainable and low-carbon society' → 'governments can influence social behaviors towards a more sustainable and low-carbon society' (word_choice)\n- 'On the other hand, I believe that there are many actions that individuals can take to alleviate environmental degradation by adopting an eco-friendly lifestyle' → 'On the other hand, I believe individuals can take numerous actions to mitigate environmental degradation by adopting an eco-friendly lifestyle' (word_choice)\n- 'we should recycle waste materials such as paper or glass and buy products with biodegradable packaging which decomposes easily' → 'we should recycle waste materials, such as paper and glass, and buy products with biodegradable packaging that decomposes easily' (punctuation)\n- 'instead of private cars, we should use public transport or bicycle as a means of transport more often' → 'instead of private cars, we should use public transport or bicycles more often' (word_choice)"
+    },
+    "Z": {
+      "source": "C_human",
+      "text": "To, this essay will get a failing score because you did not discuss the essay in the same manner as instructed. Yo created your own discussion topic, which ran counter to the original prompt. You were asked to discuss both points of view and then give your personal opinion. You decided to discuss it as an extent essay based on a personal point of view instead. To be clear: \\n Original Discussion Instruction: Discuss both views and give your own opinion. \\n Your Discussion Instruction: I am strongly convinced that small efforts taken by individuals will make major changes in our planet. \\n The mistake in your approach to the essay discussion is as clear as day. Your totally discussion is not even tangential in response because you offered a discussion of only your point of view on a topic that is not asked for in the original prompt. As such, this will get a failing grade of 1 because your response is completely unrelated to the required task."
+    }
+  },
+  "key": {
+    "X": "A_baseline",
+    "Y": "B_multiagent",
+    "Z": "C_human"
+  },
+  "raw": {
+    "A": {
+      "overall_score": 4,
+      "summary": "Your essay presents a clear argument on the role of individuals in solving environmental problems, with a well-structured introduction and conclusion, although there are areas for improvement in terms of content depth and language precision. You effectively address the prompt and provide relevant examples to support your stance.",
+      "structure_feedback": "You did well in organizing your essay into a clear introduction, body, and conclusion. The transitions between paragraphs are generally smooth, and you use transitional phrases effectively. However, consider improving the logical flow within paragraphs by using more nuanced linking words and phrases to connect your ideas. Additionally, the conclusion could be more detailed, summarizing the main points rather than just restating the thesis.",
+      "content_feedback": "Your thesis statement is clear and well-supported by the arguments presented. You provide a good balance of views, acknowledging the role of governments while arguing for individual responsibility. The examples given, such as recycling, using public transport, and planting trees, are relevant and practical. Consider providing more evidence or statistics to strengthen your arguments and make them more convincing. Additionally, exploring the challenges or limitations of individual actions could add depth to your discussion.",
+      "language_feedback": "Your vocabulary is adequate, and you use a variety of sentence structures. However, there are moments where the language could be more precise and formal. For instance, using phrases like 'one of the most challenges' could be rephrased for better clarity and grammar. Consider enhancing your academic register by using more sophisticated vocabulary and ensuring that your sentences are grammatically correct. Clarity is generally good, but some sentences are a bit long and could be broken up for easier reading.",
+      "priority_actions": [
+        "Enhance the conclusion to summarize main points and reiterate the thesis with more depth",
+        "Incorporate more evidence or statistics to support your arguments",
+        "Refine your language for better precision, formality, and grammatical accuracy"
+      ]
+    },
+    "B": {
+      "essay_length": 1949,
+      "rubric_provided": true,
+      "a1_structure": {
+        "has_introduction": true,
+        "has_conclusion": true,
+        "paragraph_count": 4,
+        "logical_flow_score": 4,
+        "transition_quality_score": 4,
+        "overall_structure_score": 4,
+        "strengths": [
+          "Clear introduction that sets up the topic and thesis",
+          "Body paragraphs with clear topic sentences and supporting details",
+          "Effective use of transitional phrases to connect ideas"
+        ],
+        "weaknesses": [
+          "The essay could benefit from more nuanced and detailed analysis in the body paragraphs",
+          "Some paragraphs feel a bit short or lacking in development"
+        ],
+        "suggestions": [
+          "Consider adding more evidence or examples to support claims in the body paragraphs",
+          "Use more varied and sophisticated transitional phrases to connect ideas between paragraphs",
+          "Think about adding a more detailed and specific call to action in the conclusion"
+        ]
+      },
+      "a1_elapsed_s": 1.2,
+      "a2_content": {
+        "thesis_present": true,
+        "thesis_quality_score": 4,
+        "prompt_adherence_score": 5,
+        "evidence_quality_score": 4,
+        "argumentation_depth_score": 4,
+        "overall_content_score": 4,
+        "rubric_coverage": [
+          {
+            "criterion": "Thesis Statement",
+            "status": "met",
+            "comment": "The essay clearly states the writer's position on individual efforts in environmental protection."
+          },
+          {
+            "criterion": "Supporting Evidence",
+            "status": "met",
+            "comment": "The essay provides relevant examples of individual actions that can alleviate environmental degradation."
+          },
+          {
+            "criterion": "Argumentation Depth",
+            "status": "partially_met",
+            "comment": "The essay presents a clear argument but could benefit from more nuanced discussion of the interplay between individual and governmental actions."
+          },
+          {
+            "criterion": "Topic Relevance",
+            "status": "met",
+            "comment": "The essay stays focused on the topic of individual solutions to environmental problems."
+          }
+        ],
+        "strengths": [
+          "Clear thesis statement",
+          "Relevant examples of individual actions",
+          "Good structure and organization"
+        ],
+        "weaknesses": [
+          "Lack of depth in discussing the interplay between individual and governmental actions",
+          "Limited analysis of potential challenges or counterarguments"
+        ],
+        "suggestions": [
+          "Consider adding more nuanced discussion of the relationship between individual and governmental efforts",
+          "Address potential counterarguments or challenges to individual actions",
+          "Provide more detailed analysis of the impact of individual actions on environmental protection"
+        ]
+      },
+      "a2_elapsed_s": 1.4,
+      "a3_language": {
+        "grammar_score": 4,
+        "vocabulary_score": 4,
+        "academic_register_score": 4,
+        "clarity_score": 4,
+        "sentence_variety_score": 4,
+        "overall_language_score": 4,
+        "error_annotations": [
+          {
+            "original": "have been one of the most challenges",
+            "corrected": "are one of the most significant challenges",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "that almost every country is facing",
+            "corrected": "that almost every country faces",
+            "error_type": "grammar"
+          },
+          {
+            "original": "individuals will make major changes in our planet",
+            "corrected": "individuals can make a significant impact on our planet",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "It is true that many people believe environmental issues can only be tackled by governments and international organization",
+            "corrected": "It is true that many people believe environmental issues can only be tackled by governments and international organizations",
+            "error_type": "spelling"
+          },
+          {
+            "original": "which requires the cooperation from countries around the world to deal with",
+            "corrected": "which requires cooperation from countries around the world to address",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "As a result, only the world's intergovernmental actions enable to mobilize enormous resources",
+            "corrected": "As a result, only intergovernmental actions can mobilize enormous resources",
+            "error_type": "grammar"
+          },
+          {
+            "original": "to adopt multidisciplinary approaches for environmental protection",
+            "corrected": "to adopt multidisciplinary approaches to environmental protection",
+            "error_type": "preposition"
+          },
+          {
+            "original": "government can adjust social behaviors towards a more sustainable and low-carbon society",
+            "corrected": "governments can influence social behaviors towards a more sustainable and low-carbon society",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "On the other hand, I believe that there are many actions that individuals can take to alleviate environmental degradation by adopting an eco-friendly lifestyle",
+            "corrected": "On the other hand, I believe individuals can take numerous actions to mitigate environmental degradation by adopting an eco-friendly lifestyle",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "we should recycle waste materials such as paper or glass and buy products with biodegradable packaging which decomposes easily",
+            "corrected": "we should recycle waste materials, such as paper and glass, and buy products with biodegradable packaging that decomposes easily",
+            "error_type": "punctuation"
+          },
+          {
+            "original": "instead of private cars, we should use public transport or bicycle as a means of transport more often",
+            "corrected": "instead of private cars, we should use public transport or bicycles more often",
+            "error_type": "word_choice"
+          }
+        ]
+      },
+      "a3_elapsed_s": 1.5,
+      "a4_synthesized": {
+        "overall_score": 4,
+        "summary": "You did well in presenting a clear thesis statement, providing relevant examples, and organizing your essay effectively, but consider improving the depth of your discussion and addressing potential counterarguments. Your writing demonstrates good structure, content, and language skills, with some areas for refinement in analysis, evidence, and word choice.",
+        "structure_feedback": "You effectively introduced the topic, presented body paragraphs with clear topic sentences and supporting details, and used transitional phrases to connect ideas. However, some paragraphs feel a bit short or lacking in development. Consider adding more evidence or examples to support claims in the body paragraphs and using more varied and sophisticated transitional phrases to connect ideas between paragraphs.",
+        "content_feedback": "Your essay clearly states your position on individual efforts in environmental protection, provides relevant examples, and stays focused on the topic. Nevertheless, the discussion could benefit from more nuanced analysis of the interplay between individual and governmental actions and consideration of potential challenges or counterarguments. Think about adding more detailed analysis of the impact of individual actions on environmental protection and addressing potential counterarguments or challenges to individual actions.",
+        "language_feedback": "Your writing demonstrates good grammar, vocabulary, and clarity, with some minor errors in word choice, grammar, and punctuation. Be more precise in your word choice, and ensure that your sentences are varied and grammatically correct. For instance, instead of saying 'have been one of the most challenges', say 'are one of the most significant challenges', and instead of 'individuals will make major changes in our planet', say 'individuals can make a significant impact on our planet'.",
+        "priority_actions": [
+          "Add more nuanced discussion of the relationship between individual and governmental efforts to environmental protection",
+          "Address potential counterarguments or challenges to individual actions in your essay",
+          "Refine your word choice and grammar to enhance clarity and precision in your writing"
+        ]
+      },
+      "a4_elapsed_s": 1.6,
+      "a5_moderated": {
+        "moderated_feedback": {
+          "overall_score": 4,
+          "summary": "You did well in presenting a clear thesis statement, providing relevant examples, and organizing your essay effectively. To further improve, consider enhancing the depth of your discussion and addressing potential counterarguments. Your writing demonstrates good structure, content, and language skills, with some areas for refinement in analysis, evidence, and word choice.",
+          "structure_feedback": "You effectively introduced the topic, presented body paragraphs with clear topic sentences and supporting details, and used transitional phrases to connect ideas. To develop your paragraphs further, consider adding more evidence or examples to support your claims and using more varied and sophisticated transitional phrases to connect ideas between paragraphs.",
+          "content_feedback": "Your essay clearly states your position on individual efforts in environmental protection, provides relevant examples, and stays focused on the topic. To add more depth to your discussion, consider analyzing the interplay between individual and governmental actions and exploring potential challenges or counterarguments. Think about adding more detailed analysis of the impact of individual actions on environmental protection and addressing potential counterarguments or challenges to individual actions.",
+          "language_feedback": "Your writing demonstrates good grammar, vocabulary, and clarity, with some minor errors in word choice, grammar, and punctuation. To refine your writing, focus on precise word choice and ensure that your sentences are varied and grammatically correct. For example, instead of 'have been one of the most challenges', consider 'are one of the most significant challenges', and instead of 'individuals will make major changes in our planet', consider 'individuals can make a significant impact on our planet'.",
+          "priority_actions": [
+            "Enhance your discussion with more nuanced analysis of the relationship between individual and governmental efforts in environmental protection",
+            "Address potential counterarguments or challenges to individual actions in your essay",
+            "Refine your word choice and grammar to enhance clarity and precision in your writing"
+          ]
+        },
+        "moderation_log": [
+          {
+            "action": "rephrased",
+            "original": "consider improving the depth of your discussion and addressing potential counterarguments",
+            "reason": "minor rewording for clarity"
+          },
+          {
+            "action": "removed",
+            "original": "some areas for refinement in analysis, evidence, and word choice",
+            "reason": "too vague, already implied in other feedback"
+          },
+          {
+            "action": "rephrased",
+            "original": "some paragraphs feel a bit short or lacking in development",
+            "reason": "reworded for constructive tone"
+          },
+          {
+            "action": "rephrased",
+            "original": "Consider adding more evidence or examples to support claims in the body paragraphs",
+            "reason": "minor rewording for clarity"
+          },
+          {
+            "action": "rephrased",
+            "original": "the discussion could benefit from more nuanced analysis of the interplay between individual and governmental actions",
+            "reason": "minor rewording for clarity"
+          },
+          {
+            "action": "rephrased",
+            "original": "Be more precise in your word choice, and ensure that your sentences are varied and grammatically correct",
+            "reason": "reworded for constructive tone"
+          }
+        ],
+        "moderation_summary": {
+          "changes_made": 6,
+          "tone_issues": 2,
+          "bias_flags": 0,
+          "vague_replacements": 1
+        }
+      },
+      "a5_elapsed_s": 2.0,
+      "total_elapsed_s": 26.4
+    },
+    "C": "To, this essay will get a failing score because you did not discuss the essay in the same manner as instructed. Yo created your own discussion topic, which ran counter to the original prompt. You were asked to discuss both points of view and then give your personal opinion. You decided to discuss it as an extent essay based on a personal point of view instead. To be clear: \\n Original Discussion Instruction: Discuss both views and give your own opinion. \\n Your Discussion Instruction: I am strongly convinced that small efforts taken by individuals will make major changes in our planet. \\n The mistake in your approach to the essay discussion is as clear as day. Your totally discussion is not even tangential in response because you offered a discussion of only your point of view on a topic that is not asked for in the original prompt. As such, this will get a failing grade of 1 because your response is completely unrelated to the required task."
+  }
+}

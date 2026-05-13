@@ -1,0 +1,64 @@
+# ──────────────────────────────────────────────────────────────────
+# QUILL — .gitignore
+# ──────────────────────────────────────────────────────────────────
+
+# ── Python bytecode / caches ──────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# ── Virtual environment & local model symlinks ────────────────────
+# (both are symlinks to ../meta-analisis-automatizado/, not portable)
+venv
+venv/
+models
+models/
+env/
+.venv/
+
+# ── Secrets / API keys ────────────────────────────────────────────
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+secrets.yaml
+secrets.json
+config.local.yaml
+
+# ── LEAF dataset (large; not redistributed) ───────────────────────
+# See data/leaf/README.md for download instructions.
+# The two sampled subsets (subset_pilot.json, subset_full.json) ARE
+# committed so the exact 3- and 10-essay subsets we used are
+# reproducible without needing the full corpus.
+data/leaf/leaf.jsonl
+
+# ── OS cruft ──────────────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ── Editor / IDE ──────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.history/
+
+# ── Claude Code / local agent settings ────────────────────────────
+.claude/
+
+# ── Jupyter ───────────────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ── Build / dist (in case anyone packages this later) ─────────────
+build/
+dist/
+*.egg

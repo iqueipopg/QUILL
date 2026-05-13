@@ -1,0 +1,211 @@
+{
+  "essay_length": 1530,
+  "rubric_provided": true,
+  "a1_structure": {
+    "has_introduction": true,
+    "has_conclusion": true,
+    "paragraph_count": 4,
+    "logical_flow_score": 4,
+    "transition_quality_score": 3,
+    "overall_structure_score": 4,
+    "strengths": [
+      "The essay has a clear introduction that sets up the topic and the writer's position",
+      "The body paragraphs provide specific examples to support the writer's argument",
+      "The conclusion effectively summarizes the main points and reiterates the writer's position"
+    ],
+    "weaknesses": [
+      "The transition between the second and third paragraphs could be smoother",
+      "The paragraphs could be more clearly linked to each other",
+      "The conclusion is somewhat brief and could be more detailed"
+    ],
+    "suggestions": [
+      "Use more transitional phrases to connect the paragraphs",
+      "Consider adding a sentence or two to the conclusion to provide more depth",
+      "Make sure each paragraph has a clear topic sentence that relates to the thesis statement"
+    ]
+  },
+  "a1_elapsed_s": 1.1,
+  "a2_content": {
+    "thesis_present": true,
+    "thesis_quality_score": 4,
+    "prompt_adherence_score": 5,
+    "evidence_quality_score": 4,
+    "argumentation_depth_score": 4,
+    "overall_content_score": 4,
+    "rubric_coverage": [
+      {
+        "criterion": "thesis statement",
+        "status": "met",
+        "comment": "The student clearly states their position on sharing information"
+      },
+      {
+        "criterion": "supporting evidence",
+        "status": "met",
+        "comment": "The student provides relevant examples from medical science and global warming"
+      },
+      {
+        "criterion": "argumentation depth",
+        "status": "partially_met",
+        "comment": "The student presents some logical reasoning but could delve deeper into counterarguments"
+      },
+      {
+        "criterion": "topic relevance",
+        "status": "met",
+        "comment": "The student stays focused on the topic of sharing information in scientific research, business, and academia"
+      }
+    ],
+    "strengths": [
+      "Clear thesis statement",
+      "Relevant examples from various fields",
+      "Logical reasoning"
+    ],
+    "weaknesses": [
+      "Lack of counterargument consideration",
+      "Limited depth in exploring the implications of sharing information"
+    ],
+    "suggestions": [
+      "Address potential counterarguments to strengthen the argument",
+      "Explore the potential consequences of sharing information in different contexts",
+      "Consider multiple perspectives on the value of shared information"
+    ]
+  },
+  "a2_elapsed_s": 1.2,
+  "a3_language": {
+    "grammar_score": 3,
+    "vocabulary_score": 4,
+    "academic_register_score": 3,
+    "clarity_score": 4,
+    "sentence_variety_score": 3,
+    "overall_language_score": 3,
+    "error_annotations": [
+      {
+        "original": "are too valuable to be publish",
+        "corrected": "are too valuable to be published",
+        "error_type": "grammar"
+      },
+      {
+        "original": "it will be better that if people can share their information to the world",
+        "corrected": "it would be better if people could share their information with the world",
+        "error_type": "grammar/word_choice"
+      },
+      {
+        "original": "the reasons for my position are as follows",
+        "corrected": "the following reasons support my position",
+        "error_type": "word_choice/register"
+      },
+      {
+        "original": "no matter technology, medical science or other major subjects are all improving in the world",
+        "corrected": "regardless of the field, whether technology, medical science, or other major subjects, all are improving in the world",
+        "error_type": "grammar/clarity"
+      },
+      {
+        "original": "the reason that push them forward",
+        "corrected": "the reason that pushes them forward",
+        "error_type": "grammar"
+      },
+      {
+        "original": "we use the the research data",
+        "corrected": "we use the research data",
+        "error_type": "grammar"
+      },
+      {
+        "original": "some of cancer experts",
+        "corrected": "some cancer experts",
+        "error_type": "grammar"
+      },
+      {
+        "original": "so that they can avoid to make the same mistake",
+        "corrected": "so that they can avoid making the same mistake",
+        "error_type": "grammar"
+      },
+      {
+        "original": "for their patient.s",
+        "corrected": "for their patients",
+        "error_type": "spelling"
+      },
+      {
+        "original": "some old information can be use for comparison",
+        "corrected": "some old information can be used for comparison",
+        "error_type": "grammar"
+      },
+      {
+        "original": "if we can use the data which someone had collected from the past time",
+        "corrected": "if we can use the data that someone collected in the past",
+        "error_type": "grammar/word_choice"
+      },
+      {
+        "original": "it will be a good warming to give people alarm",
+        "corrected": "it will serve as a warning to alarm people",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "In summary, I once again reaffirm my position",
+        "corrected": "In conclusion, I reiterate my position",
+        "error_type": "word_choice/register"
+      },
+      {
+        "original": "the new ideas and creations always based on those researches that someone had referenced",
+        "corrected": "new ideas and creations are always based on research that someone has referenced",
+        "error_type": "grammar"
+      }
+    ]
+  },
+  "a3_elapsed_s": 1.8,
+  "a4_synthesized": {
+    "overall_score": 4,
+    "summary": "You did well in presenting a clear argument with relevant examples, but there are areas for improvement in terms of structure, content depth, and language accuracy. With some refinements, your essay can become even more effective in conveying your position on sharing information.",
+    "structure_feedback": "You effectively introduced the topic and concluded with a summary of your main points. The body paragraphs provided specific examples to support your argument. However, consider improving the transitions between paragraphs and adding more detail to the conclusion. Using more transitional phrases and ensuring each paragraph has a clear topic sentence related to the thesis statement will enhance the essay's flow and coherence.",
+    "content_feedback": "Your thesis statement is clear, and you provided relevant examples from various fields to support your argument. You demonstrated logical reasoning and stayed focused on the topic. To strengthen your argument, consider addressing potential counterarguments and exploring the implications of sharing information in different contexts. Delving deeper into the consequences and considering multiple perspectives will add depth to your argument.",
+    "language_feedback": "While your vocabulary is strong and your sentences are generally clear, there are areas for improvement in grammar, academic register, and sentence variety. Pay close attention to grammatical errors, word choice, and clarity. For instance, correcting errors such as subject-verb agreement, tense consistency, and word selection will significantly improve the overall quality of your writing. Additionally, varying your sentence structure can enhance readability and engagement.",
+    "priority_actions": [
+      "Use transitional phrases to connect paragraphs and improve the essay's flow",
+      "Address potential counterarguments to strengthen your argument and explore the implications of sharing information",
+      "Review and correct grammatical errors, focusing on subject-verb agreement, tense consistency, and word choice to improve language accuracy"
+    ]
+  },
+  "a4_elapsed_s": 1.8,
+  "a5_moderated": {
+    "moderated_feedback": {
+      "overall_score": 4,
+      "summary": "You presented a clear argument with relevant examples, and with some refinements, your essay can become even more effective in conveying your position on sharing information.",
+      "structure_feedback": "You effectively introduced the topic and concluded with a summary of your main points. The body paragraphs provided specific examples to support your argument. To improve, consider adding transitional phrases between paragraphs and expanding your conclusion with more detail. Ensure each paragraph has a clear topic sentence related to the thesis statement to enhance the essay's flow and coherence.",
+      "content_feedback": "Your thesis statement is clear, and you provided relevant examples from various fields to support your argument. You demonstrated logical reasoning and stayed focused on the topic. To strengthen your argument, consider addressing potential counterarguments and exploring the implications of sharing information in different contexts. Delving deeper into the consequences and considering multiple perspectives will add depth to your argument.",
+      "language_feedback": "Your vocabulary is strong, and your sentences are generally clear. To improve, focus on correcting grammatical errors, such as subject-verb agreement and tense consistency, and enhance sentence variety to improve readability and engagement.",
+      "priority_actions": [
+        "Use transitional phrases to connect paragraphs and improve the essay's flow",
+        "Address potential counterarguments to strengthen your argument and explore the implications of sharing information",
+        "Review and correct grammatical errors, focusing on subject-verb agreement, tense consistency, and word choice to improve language accuracy"
+      ]
+    },
+    "moderation_log": [
+      {
+        "action": "rephrased",
+        "original": "You did well in presenting a clear argument with relevant examples, but there are areas for improvement in terms of structure, content depth, and language accuracy.",
+        "reason": "Tone adjustment to focus on positive aspects first"
+      },
+      {
+        "action": "removed",
+        "original": "While your vocabulary is strong and your sentences are generally clear, there are areas for improvement in grammar, academic register, and sentence variety.",
+        "reason": "Bias against non-standard writing styles and vague comments"
+      },
+      {
+        "action": "rephrased",
+        "original": "Pay close attention to grammatical errors, word choice, and clarity.",
+        "reason": "To provide more actionable suggestions"
+      },
+      {
+        "action": "flagged",
+        "original": "Using more transitional phrases and ensuring each paragraph has a clear topic sentence related to the thesis statement will enhance the essay's flow and coherence.",
+        "reason": "No changes needed, but flagged for consideration of further clarification"
+      }
+    ],
+    "moderation_summary": {
+      "changes_made": 4,
+      "tone_issues": 1,
+      "bias_flags": 1,
+      "vague_replacements": 2
+    }
+  },
+  "a5_elapsed_s": 1.7,
+  "total_elapsed_s": 27.6
+}

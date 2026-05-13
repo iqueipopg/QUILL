@@ -1,0 +1,235 @@
+{
+  "essay_id": "leaf_001",
+  "essay_text": "In the contemporary world, internet has gradually become a prevalent tool; therefore, it is used by many people every day. However, it is said that schools are no longer important any more because internet can provide students a lot of information from different resources and they can be home-schooled. I strongly believe that schools play an essential role in a society; thus, internet can not replace them. \nOn the one hand, it is a common belief that internet is convenient and useful. People can access it easily, for instance, everyone can be able to search for information any where and any time they need just by clicking on their electronic devices. In addition, students do not need to spend hours to travel to schools and attend classes. Besides, children who live in remote areas or in a special circumstance can now access distance-learning. Moreover, the lessons on the internet are more various, they are created by people and experts in distinctive fields, so children now have plenty of options to choose from and they can find suitable programs for themselves without attending classes which they are not interested in. What is more, there are a large number of free online materials; hence, poor children are able to learn without paying for tuition fees. \nOn the other hand, I believe there are some merits that make schools necessary. First of all, not everything on the internet is true, young students can not identify the information by themselves and that is why they need to go to schools. Although the materials on the internet vary from different fields but, there might be too much and as a result, students become confused. More importantly, only by studying offline, teachers who are trained and have educational skills can help students and guide them on the right road. For example, if children do not understand a question or a problem, they can get help immediately from the teachers and this prevent them from confusing. Moreover, schools provide children proper educational programs and institutes which are not available at homes to help them do experiments and gain knowledge. In addition, schools are also places where children expand their social relationships and develop interpersonal skills. They can make friends, communicate with different types of people and experience innovative things. \nIn conclusion, despite the fact that internet can provide young children so much useful information, I strongly believe that they can not replace the role of schools. Hence, in the near future, I suppose that schools will still be an integral part of the society.",
+  "prompt": "IELTS TASK 2 ACADEMIC - TOPIC: EDUCATION; In the modern world, schools are no longer necessary",
+  "elapsed": {
+    "A": 1.744215965270996,
+    "B": 26.297517776489258
+  },
+  "blind": {
+    "X": {
+      "source": "C_human",
+      "text": "The first sentence of your prompt restatement is unnecessary. You need to be more focused on presenting the actual information in the first paragraph. In your current presentation, The second sentence is more applicable to the paraphrasing needs. Do not open the paragraph with unrelated content. Unrelated content is any information that is not a part of the original presentation. Those sentences will result in task accuracy deductions on your part. Such demerits will make it more difficult for you to achieve a passing score later on. Your defense is weak. Your personal opinion is not properly developed. You cannot defend the opposing side in a discussion where you were asked to clearly state your opinion and why your opinion is the correct one. Your opposition to your own belief will result in a low scoring essay. Mostly because you proved you do not support your own belief enough to convince the reader that your opinion is the best one."
+    },
+    "Y": {
+      "source": "B_multiagent",
+      "text": "You did well in presenting a clear thesis statement, providing relevant examples, and organizing your essay coherently, but there are areas for improvement in terms of argumentation depth, sentence variety, and language accuracy.\n\nYou effectively introduced the topic and thesis statement, and your body paragraphs were well-organized with clear topic sentences and supporting evidence. Consider revising your body paragraphs to make them more concise and focused on a single main point, and use more varied sentence structures to improve the overall flow and clarity of the essay.\n\nYour essay presented a clear thesis statement, relevant examples, and stayed focused on the topic. To enhance the depth and engagement of your content, explore more nuances in your argument and address potential counterarguments. Additionally, vary your sentence structure and vocabulary to add complexity to your writing.\n\nYou demonstrated a good command of grammar, vocabulary, and academic register. To improve, focus on proofreading your work carefully to correct errors, such as missing articles, incorrect verb forms, and word choice issues, which can disrupt the clarity of your writing.\n\nGoing forward, focus on these things: Revise your body paragraphs to make them more concise and focused on a single main point; Explore more nuances in your argument and address potential counterarguments to enhance the depth of your content; and Proofread your work carefully to correct grammar, word choice, and sentence structure errors.\n\nSpecific corrections noted in your essay:\n- 'internet has gradually become a prevalent tool; therefore, it is used by many people every day' → 'the internet has gradually become a prevalent tool; therefore, it is used by many people every day' (grammar)\n- 'schools are no longer important any more' → 'schools are no longer important anymore' (grammar)\n- 'thus, internet can not replace them' → 'thus, the internet cannot replace them' (grammar)\n- 'everyone can be able to search for information any where and any time they need' → 'everyone is able to search for information anywhere and at any time they need' (grammar)\n- 'children who live in remote areas or in a special circumstance' → 'children who live in remote areas or have special circumstances' (word_choice)\n- 'the lessons on the internet are more various' → 'the lessons on the internet are more varied' (word_choice)\n- 'only by studying offline, teachers who are trained and have educational skills can help students and guide them on the right road' → 'only by studying offline can teachers, who are trained and have educational skills, help students and guide them on the right path' (grammar)\n- 'this prevent them from confusing' → 'this prevents them from becoming confused' (grammar)\n- 'schools provide children proper educational programs and institutes' → 'schools provide children with proper educational programs and institutions' (grammar)\n- 'they can make friends, communicate with different types of people and experience innovative things' → 'they can make friends, communicate with different types of people, and experience new things' (word_choice)"
+    },
+    "Z": {
+      "source": "A_baseline",
+      "text": "You have presented a well-structured essay with a clear thesis statement, addressing both sides of the argument, and your conclusion effectively summarizes your main points. However, there are areas for improvement in terms of language, vocabulary, and evidence to support your arguments.\n\nYou did well in dividing your essay into introduction, body, and conclusion. The use of transitional phrases such as 'On the one hand' and 'On the other hand' helps to maintain a logical flow between paragraphs. Consider improving your paragraph structure by using topic sentences that clearly outline the main idea of each paragraph and then providing evidence to support it. Additionally, try to use more varied and sophisticated transition words to connect your ideas.\n\nYour thesis statement is clear and well-supported by the arguments presented in the essay. You have effectively addressed the prompt and provided some good points about the importance of schools in the modern world. However, consider adding more concrete evidence, such as statistics or expert opinions, to strengthen your arguments. Additionally, try to anticipate counterarguments and address them in your essay to make your position more convincing.\n\nYour language is generally clear, but there are some areas for improvement in terms of grammar, vocabulary, and academic register. Consider using more precise and formal vocabulary, such as 'numerous' instead of 'a large number of', and 'consequently' instead of 'as a result'. Additionally, try to vary your sentence structure by using compound and complex sentences to improve the overall clarity and coherence of your writing.\n\nGoing forward, focus on these things: Use more varied and sophisticated transition words to connect ideas; Add concrete evidence to support arguments; Improve vocabulary by using more precise and formal words; and Vary sentence structure to improve clarity and coherence."
+    }
+  },
+  "key": {
+    "X": "C_human",
+    "Y": "B_multiagent",
+    "Z": "A_baseline"
+  },
+  "raw": {
+    "A": {
+      "overall_score": 4,
+      "summary": "You have presented a well-structured essay with a clear thesis statement, addressing both sides of the argument, and your conclusion effectively summarizes your main points. However, there are areas for improvement in terms of language, vocabulary, and evidence to support your arguments.",
+      "structure_feedback": "You did well in dividing your essay into introduction, body, and conclusion. The use of transitional phrases such as 'On the one hand' and 'On the other hand' helps to maintain a logical flow between paragraphs. Consider improving your paragraph structure by using topic sentences that clearly outline the main idea of each paragraph and then providing evidence to support it. Additionally, try to use more varied and sophisticated transition words to connect your ideas.",
+      "content_feedback": "Your thesis statement is clear and well-supported by the arguments presented in the essay. You have effectively addressed the prompt and provided some good points about the importance of schools in the modern world. However, consider adding more concrete evidence, such as statistics or expert opinions, to strengthen your arguments. Additionally, try to anticipate counterarguments and address them in your essay to make your position more convincing.",
+      "language_feedback": "Your language is generally clear, but there are some areas for improvement in terms of grammar, vocabulary, and academic register. Consider using more precise and formal vocabulary, such as 'numerous' instead of 'a large number of', and 'consequently' instead of 'as a result'. Additionally, try to vary your sentence structure by using compound and complex sentences to improve the overall clarity and coherence of your writing.",
+      "priority_actions": [
+        "Use more varied and sophisticated transition words to connect ideas",
+        "Add concrete evidence to support arguments",
+        "Improve vocabulary by using more precise and formal words",
+        "Vary sentence structure to improve clarity and coherence"
+      ]
+    },
+    "B": {
+      "essay_length": 2600,
+      "rubric_provided": true,
+      "a1_structure": {
+        "has_introduction": true,
+        "has_conclusion": true,
+        "paragraph_count": 3,
+        "logical_flow_score": 4,
+        "transition_quality_score": 4,
+        "overall_structure_score": 4,
+        "strengths": [
+          "Clear introduction that sets up the topic and thesis statement",
+          "Effective use of transitional phrases to connect ideas between paragraphs",
+          "Well-organized body paragraphs with clear topic sentences and supporting evidence"
+        ],
+        "weaknesses": [
+          "Body paragraphs could be more concise and focused on a single main point",
+          "Some sentences are wordy or repetitive, disrupting the flow of the essay"
+        ],
+        "suggestions": [
+          "Consider adding more nuanced transitions to connect ideas within paragraphs",
+          "Use more varied sentence structures to improve the overall flow and clarity of the essay",
+          "Ensure that each body paragraph has a clear and focused topic sentence"
+        ]
+      },
+      "a1_elapsed_s": 1.0,
+      "a2_content": {
+        "thesis_present": true,
+        "thesis_quality_score": 4,
+        "prompt_adherence_score": 5,
+        "evidence_quality_score": 4,
+        "argumentation_depth_score": 4,
+        "overall_content_score": 4,
+        "rubric_coverage": [
+          {
+            "criterion": "thesis statement",
+            "status": "met",
+            "comment": "The essay clearly states the writer's position on the topic."
+          },
+          {
+            "criterion": "supporting evidence",
+            "status": "met",
+            "comment": "The essay provides relevant examples and explanations to support the writer's arguments."
+          },
+          {
+            "criterion": "argumentation depth",
+            "status": "partially_met",
+            "comment": "The essay presents some depth in discussing the importance of schools, but could explore more nuances and counterarguments."
+          },
+          {
+            "criterion": "topic relevance",
+            "status": "met",
+            "comment": "The essay stays focused on the topic and addresses the prompt directly."
+          }
+        ],
+        "strengths": [
+          "Clear thesis statement",
+          "Relevant examples and explanations",
+          "Organization and coherence"
+        ],
+        "weaknesses": [
+          "Limited depth in argumentation",
+          "Could explore more counterarguments",
+          "Some points feel a bit repetitive"
+        ],
+        "suggestions": [
+          "Explore more nuances in the argument",
+          "Address potential counterarguments",
+          "Vary sentence structure and vocabulary"
+        ]
+      },
+      "a2_elapsed_s": 1.4,
+      "a3_language": {
+        "grammar_score": 4,
+        "vocabulary_score": 4,
+        "academic_register_score": 4,
+        "clarity_score": 4,
+        "sentence_variety_score": 4,
+        "overall_language_score": 4,
+        "error_annotations": [
+          {
+            "original": "internet has gradually become a prevalent tool; therefore, it is used by many people every day",
+            "corrected": "the internet has gradually become a prevalent tool; therefore, it is used by many people every day",
+            "error_type": "grammar"
+          },
+          {
+            "original": "schools are no longer important any more",
+            "corrected": "schools are no longer important anymore",
+            "error_type": "grammar"
+          },
+          {
+            "original": "thus, internet can not replace them",
+            "corrected": "thus, the internet cannot replace them",
+            "error_type": "grammar"
+          },
+          {
+            "original": "everyone can be able to search for information any where and any time they need",
+            "corrected": "everyone is able to search for information anywhere and at any time they need",
+            "error_type": "grammar"
+          },
+          {
+            "original": "children who live in remote areas or in a special circumstance",
+            "corrected": "children who live in remote areas or have special circumstances",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "the lessons on the internet are more various",
+            "corrected": "the lessons on the internet are more varied",
+            "error_type": "word_choice"
+          },
+          {
+            "original": "only by studying offline, teachers who are trained and have educational skills can help students and guide them on the right road",
+            "corrected": "only by studying offline can teachers, who are trained and have educational skills, help students and guide them on the right path",
+            "error_type": "grammar"
+          },
+          {
+            "original": "this prevent them from confusing",
+            "corrected": "this prevents them from becoming confused",
+            "error_type": "grammar"
+          },
+          {
+            "original": "schools provide children proper educational programs and institutes",
+            "corrected": "schools provide children with proper educational programs and institutions",
+            "error_type": "grammar"
+          },
+          {
+            "original": "they can make friends, communicate with different types of people and experience innovative things",
+            "corrected": "they can make friends, communicate with different types of people, and experience new things",
+            "error_type": "word_choice"
+          }
+        ]
+      },
+      "a3_elapsed_s": 1.8,
+      "a4_synthesized": {
+        "overall_score": 4,
+        "summary": "You did well in presenting a clear thesis statement, providing relevant examples, and organizing your essay coherently, but there are areas for improvement in terms of argumentation depth, sentence variety, and language accuracy.",
+        "structure_feedback": "You effectively introduced the topic and thesis statement, and your body paragraphs were well-organized with clear topic sentences and supporting evidence. However, consider making your body paragraphs more concise and focused on a single main point, and use more varied sentence structures to improve the overall flow and clarity of the essay.",
+        "content_feedback": "Your essay presented a clear thesis statement, relevant examples, and stayed focused on the topic. Nevertheless, you could explore more nuances in your argument, address potential counterarguments, and vary your sentence structure and vocabulary to enhance the depth and engagement of your content.",
+        "language_feedback": "You demonstrated a good command of grammar, vocabulary, and academic register, but there were some errors in grammar, word choice, and sentence structure that disrupted the clarity of your writing. Make sure to proofread your work carefully to correct errors, such as missing articles, incorrect verb forms, and word choice issues.",
+        "priority_actions": [
+          "Revise your body paragraphs to make them more concise and focused on a single main point",
+          "Explore more nuances in your argument and address potential counterarguments to enhance the depth of your content",
+          "Proofread your work carefully to correct grammar, word choice, and sentence structure errors"
+        ]
+      },
+      "a4_elapsed_s": 1.4,
+      "a5_moderated": {
+        "moderated_feedback": {
+          "overall_score": 4,
+          "summary": "You did well in presenting a clear thesis statement, providing relevant examples, and organizing your essay coherently, but there are areas for improvement in terms of argumentation depth, sentence variety, and language accuracy.",
+          "structure_feedback": "You effectively introduced the topic and thesis statement, and your body paragraphs were well-organized with clear topic sentences and supporting evidence. Consider revising your body paragraphs to make them more concise and focused on a single main point, and use more varied sentence structures to improve the overall flow and clarity of the essay.",
+          "content_feedback": "Your essay presented a clear thesis statement, relevant examples, and stayed focused on the topic. To enhance the depth and engagement of your content, explore more nuances in your argument and address potential counterarguments. Additionally, vary your sentence structure and vocabulary to add complexity to your writing.",
+          "language_feedback": "You demonstrated a good command of grammar, vocabulary, and academic register. To improve, focus on proofreading your work carefully to correct errors, such as missing articles, incorrect verb forms, and word choice issues, which can disrupt the clarity of your writing.",
+          "priority_actions": [
+            "Revise your body paragraphs to make them more concise and focused on a single main point",
+            "Explore more nuances in your argument and address potential counterarguments to enhance the depth of your content",
+            "Proofread your work carefully to correct grammar, word choice, and sentence structure errors"
+          ]
+        },
+        "moderation_log": [
+          {
+            "action": "rephrased",
+            "original": "However, consider making your body paragraphs more concise and focused on a single main point, and use more varied sentence structures to improve the overall flow and clarity of the essay.",
+            "reason": "Improved sentence structure for clarity"
+          },
+          {
+            "action": "rephrased",
+            "original": "You could explore more nuances in your argument, address potential counterarguments, and vary your sentence structure and vocabulary to enhance the depth and engagement of your content.",
+            "reason": "Simplified language for better understanding"
+          },
+          {
+            "action": "rephrased",
+            "original": "Make sure to proofread your work carefully to correct errors, such as missing articles, incorrect verb forms, and word choice issues.",
+            "reason": "Improved clarity and concision"
+          },
+          {
+            "action": "removed",
+            "original": "but there were some errors in grammar, word choice, and sentence structure that disrupted the clarity of your writing.",
+            "reason": "Removed negative tone"
+          }
+        ],
+        "moderation_summary": {
+          "changes_made": 4,
+          "tone_issues": 1,
+          "bias_flags": 0,
+          "vague_replacements": 2
+        }
+      },
+      "a5_elapsed_s": 1.7,
+      "total_elapsed_s": 26.3
+    },
+    "C": "The first sentence of your prompt restatement is unnecessary. You need to be more focused on presenting the actual information in the first paragraph. In your current presentation, The second sentence is more applicable to the paraphrasing needs. Do not open the paragraph with unrelated content. Unrelated content is any information that is not a part of the original presentation. Those sentences will result in task accuracy deductions on your part. Such demerits will make it more difficult for you to achieve a passing score later on. Your defense is weak. Your personal opinion is not properly developed. You cannot defend the opposing side in a discussion where you were asked to clearly state your opinion and why your opinion is the correct one. Your opposition to your own belief will result in a low scoring essay. Mostly because you proved you do not support your own belief enough to convince the reader that your opinion is the best one."
+  }
+}

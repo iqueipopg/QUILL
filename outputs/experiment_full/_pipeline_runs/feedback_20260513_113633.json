@@ -1,0 +1,205 @@
+{
+  "essay_length": 1957,
+  "rubric_provided": true,
+  "a1_structure": {
+    "has_introduction": true,
+    "has_conclusion": true,
+    "paragraph_count": 4,
+    "logical_flow_score": 4,
+    "transition_quality_score": 3,
+    "overall_structure_score": 4,
+    "strengths": [
+      "The essay clearly presents two opposing views on the topic",
+      "The writer provides specific examples and explanations to support their arguments",
+      "The conclusion effectively summarizes the main points"
+    ],
+    "weaknesses": [
+      "The transition between paragraphs could be smoother",
+      "Some paragraphs seem to lack a clear topic sentence",
+      "The writer could use more varied and sophisticated transition words"
+    ],
+    "suggestions": [
+      "Use more transitional phrases to connect ideas between paragraphs",
+      "Consider adding a thesis statement at the end of the introduction to guide the rest of the essay",
+      "Vary sentence structure to improve the overall flow of the essay"
+    ]
+  },
+  "a1_elapsed_s": 1.2,
+  "a2_content": {
+    "thesis_present": true,
+    "thesis_quality_score": 4,
+    "prompt_adherence_score": 5,
+    "evidence_quality_score": 4,
+    "argumentation_depth_score": 4,
+    "overall_content_score": 4,
+    "rubric_coverage": [
+      {
+        "criterion": "thesis statement",
+        "status": "met",
+        "comment": "The essay presents a clear opinion on the topic"
+      },
+      {
+        "criterion": "supporting evidence",
+        "status": "met",
+        "comment": "The essay provides relevant examples and studies to support the argument"
+      },
+      {
+        "criterion": "argumentation depth",
+        "status": "partially_met",
+        "comment": "The essay discusses both views but could delve deeper into the counterarguments"
+      },
+      {
+        "criterion": "topic relevance",
+        "status": "met",
+        "comment": "The essay stays focused on the topic of parental control over children's free time"
+      }
+    ],
+    "strengths": [
+      "Presents a clear thesis statement",
+      "Provides relevant examples and studies to support the argument",
+      "Discusses both views on the topic"
+    ],
+    "weaknesses": [
+      "Could delve deeper into the counterarguments",
+      "Transitions between paragraphs could be smoother"
+    ],
+    "suggestions": [
+      "Consider adding more nuance to the counterarguments",
+      "Use more precise language to support the argument",
+      "Use transitional phrases to connect the ideas between paragraphs"
+    ]
+  },
+  "a2_elapsed_s": 1.2,
+  "a3_language": {
+    "grammar_score": 3,
+    "vocabulary_score": 3,
+    "academic_register_score": 3,
+    "clarity_score": 4,
+    "sentence_variety_score": 3,
+    "overall_language_score": 3,
+    "error_annotations": [
+      {
+        "original": "leasure",
+        "corrected": "leisure",
+        "error_type": "spelling"
+      },
+      {
+        "original": "their mom and dad",
+        "corrected": "their parents",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "what they keen on",
+        "corrected": "what they are interested in",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "bunch of questions about things in the world",
+        "corrected": "many questions about the world",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "gain more knowledges",
+        "corrected": "acquire more knowledge",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "tend to be more clever and talkative than othe",
+        "corrected": "tend to be more clever and talkative than others",
+        "error_type": "spelling"
+      },
+      {
+        "original": "children who spend their leisure time in their hobby are smarter than those who not",
+        "corrected": "children who spend their leisure time on their hobbies are smarter than those who do not",
+        "error_type": "grammar"
+      },
+      {
+        "original": "without parent's remind",
+        "corrected": "without their parents' reminder",
+        "error_type": "grammar"
+      },
+      {
+        "original": "managing their spare time would be the best ideal",
+        "corrected": "managing their spare time would be the best idea",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "whose that spend too much time on their phone, ipad",
+        "corrected": "those who spend too much time on their phones or iPads",
+        "error_type": "grammar"
+      },
+      {
+        "original": "children under time control by their parents have more discipline than others",
+        "corrected": "children whose time is controlled by their parents have more discipline than others",
+        "error_type": "word_choice"
+      }
+    ],
+    "strengths": [
+      "The essay presents a clear discussion of both views on the topic.",
+      "The writer attempts to use transitional phrases to connect ideas between sentences."
+    ],
+    "suggestions": [
+      "Use more precise vocabulary to convey ideas, such as 'autonomy' instead of 'freedom'.",
+      "Improve sentence structure by varying sentence length and using more complex sentences.",
+      "Use more formal language to maintain an academic tone, avoiding colloquial expressions like 'bunch of questions'."
+    ]
+  },
+  "a3_elapsed_s": 1.9,
+  "a4_synthesized": {
+    "overall_score": 4,
+    "summary": "You did well in presenting a clear opinion on the topic and providing relevant examples to support your argument, but consider improving your sentence structure, vocabulary, and transitions to enhance the overall flow and clarity of your essay.",
+    "structure_feedback": "You effectively presented two opposing views on the topic, provided specific examples and explanations, and concluded by summarizing the main points. However, consider adding a thesis statement at the end of the introduction to guide the rest of the essay, and use more transitional phrases to connect ideas between paragraphs. Additionally, vary your sentence structure to improve the overall flow of the essay.",
+    "content_feedback": "Your essay presents a clear thesis statement, provides relevant examples and studies to support the argument, and discusses both views on the topic. To further strengthen your argument, consider delving deeper into the counterarguments and using more precise language to support your claims. You effectively stayed focused on the topic of parental control over children's free time.",
+    "language_feedback": "While your essay is clear and easy to understand, there are areas for improvement in terms of grammar, vocabulary, and academic register. Be sure to proofread your work to catch spelling and grammatical errors, and consider using more formal language to maintain an academic tone. Additionally, work on improving your sentence structure by varying sentence length and using more complex sentences.",
+    "priority_actions": [
+      "Use more transitional phrases to connect ideas between paragraphs and vary sentence structure to improve the overall flow of the essay",
+      "Delve deeper into the counterarguments to strengthen your argument and use more precise language to support your claims",
+      "Improve your grammar, vocabulary, and academic register by proofreading your work and using more formal language"
+    ]
+  },
+  "a4_elapsed_s": 1.9,
+  "a5_moderated": {
+    "moderated_feedback": {
+      "overall_score": 4,
+      "summary": "You presented a clear opinion on the topic and provided relevant examples to support your argument. To enhance the overall flow and clarity of your essay, consider refining your sentence structure, vocabulary, and transitions.",
+      "structure_feedback": "You effectively presented two opposing views on the topic, provided specific examples and explanations, and concluded by summarizing the main points. Consider adding a thesis statement at the end of the introduction to guide the rest of the essay and use more transitional phrases to connect ideas between paragraphs. Varying your sentence structure will also improve the essay's flow.",
+      "content_feedback": "Your essay presents a clear argument, provides relevant examples and studies to support the argument, and discusses both views on the topic. To further strengthen your argument, consider exploring counterarguments in more depth and using precise language to support your claims. You effectively stayed focused on the topic of parental control over children's free time.",
+      "language_feedback": "Your essay is clear and easy to understand. To improve, focus on refining your grammar, vocabulary, and academic tone. Proofread your work to catch errors and consider using more formal language to maintain an academic tone. Improving sentence structure by varying sentence length and using more complex sentences will also be beneficial.",
+      "priority_actions": [
+        "Use more transitional phrases to connect ideas between paragraphs and vary sentence structure to improve the overall flow of the essay",
+        "Explore counterarguments in more depth to strengthen your argument and use more precise language to support your claims",
+        "Improve your grammar, vocabulary, and academic tone by proofreading your work and using more formal language"
+      ]
+    },
+    "moderation_log": [
+      {
+        "action": "rephrased",
+        "original": "You did well in presenting a clear opinion on the topic and providing relevant examples to support your argument, but consider improving your sentence structure, vocabulary, and transitions to enhance the overall flow and clarity of your essay.",
+        "reason": "Tone adjustment for constructive feedback"
+      },
+      {
+        "action": "removed",
+        "original": "While your essay is clear and easy to understand, there are areas for improvement in terms of grammar, vocabulary, and academic register.",
+        "reason": "Vagueness; replaced with more specific feedback"
+      },
+      {
+        "action": "rephrased",
+        "original": "Be sure to proofread your work to catch spelling and grammatical errors, and consider using more formal language to maintain an academic tone.",
+        "reason": "Clarified language for better understanding"
+      },
+      {
+        "action": "flagged",
+        "original": "It is a common belief that leasure activities for children should be organized by their mom and dad.",
+        "reason": "Potential bias in language; suggested rewording for neutrality"
+      }
+    ],
+    "moderation_summary": {
+      "changes_made": 4,
+      "tone_issues": 1,
+      "bias_flags": 1,
+      "vague_replacements": 1
+    }
+  },
+  "a5_elapsed_s": 2.0,
+  "total_elapsed_s": 27.0
+}

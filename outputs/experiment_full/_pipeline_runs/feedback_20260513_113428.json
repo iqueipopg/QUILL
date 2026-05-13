@@ -1,0 +1,196 @@
+{
+  "essay_length": 1704,
+  "rubric_provided": true,
+  "a1_structure": {
+    "has_introduction": true,
+    "has_conclusion": true,
+    "paragraph_count": 4,
+    "logical_flow_score": 4,
+    "transition_quality_score": 4,
+    "overall_structure_score": 4,
+    "strengths": [
+      "Clear introduction that sets up the topic",
+      "Effective use of transitional phrases to connect ideas",
+      "Conclusion that summarizes the main points"
+    ],
+    "weaknesses": [
+      "Abrupt start without a hook to grab the reader's attention",
+      "Lack of clear thesis statement in the introduction",
+      "Body paragraphs could be more clearly divided and introduced"
+    ],
+    "suggestions": [
+      "Start with a hook to engage the reader",
+      "Clearly state the thesis statement in the introduction",
+      "Use more varied and sophisticated transitional phrases"
+    ]
+  },
+  "a1_elapsed_s": 1.0,
+  "a2_content": {
+    "thesis_present": true,
+    "thesis_quality_score": 4,
+    "prompt_adherence_score": 5,
+    "evidence_quality_score": 4,
+    "argumentation_depth_score": 4,
+    "overall_content_score": 4,
+    "rubric_coverage": [
+      {
+        "criterion": "thesis statement",
+        "status": "met",
+        "comment": "The essay presents a clear thesis statement that outlines the importance of both parents and teachers in teaching children."
+      },
+      {
+        "criterion": "supporting evidence",
+        "status": "met",
+        "comment": "The essay provides relevant examples and explanations to support the argument, such as the importance of theory and practice in teaching children."
+      },
+      {
+        "criterion": "argumentation depth",
+        "status": "partially_met",
+        "comment": "The essay presents a good discussion of both views, but could delve deeper into the complexities of the issue and provide more nuanced arguments."
+      },
+      {
+        "criterion": "topic relevance",
+        "status": "met",
+        "comment": "The essay stays focused on the topic and addresses the prompt directly."
+      }
+    ],
+    "strengths": [
+      "Presents a clear thesis statement",
+      "Provides relevant examples to support the argument",
+      "Discusses both views on the topic"
+    ],
+    "weaknesses": [
+      "Lacks depth in argumentation",
+      "Could provide more nuanced and complex arguments"
+    ],
+    "suggestions": [
+      "Consider providing more counterarguments to strengthen the essay",
+      "Delve deeper into the complexities of the issue and provide more nuanced arguments",
+      "Use more transitional phrases to connect ideas between paragraphs"
+    ]
+  },
+  "a2_elapsed_s": 1.3,
+  "a3_language": {
+    "grammar_score": 3,
+    "vocabulary_score": 3,
+    "academic_register_score": 3,
+    "clarity_score": 3,
+    "sentence_variety_score": 2,
+    "overall_language_score": 3,
+    "error_annotations": [
+      {
+        "original": "Others, however, believe that school is the place to learn this",
+        "corrected": "Others, however, believe that school is the place to learn.",
+        "error_type": "grammar"
+      },
+      {
+        "original": "to be good citizens in society",
+        "corrected": "to become good citizens in society",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "Whereas teachers give theory about being good in the community",
+        "corrected": "While teachers provide theoretical knowledge about being good in the community",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "I believe that their parents also become role model to practice their children",
+        "corrected": "I believe that parents also serve as role models for their children to practice",
+        "error_type": "grammar"
+      },
+      {
+        "original": "Therefore, position of teachers and parents are essensial to develop children",
+        "corrected": "Therefore, the roles of teachers and parents are essential to develop children",
+        "error_type": "grammar/spelling"
+      },
+      {
+        "original": "the teachers of children in the school teach theory which can be used to be good citizens",
+        "corrected": "teachers in school teach theoretical knowledge that can help children become good citizens",
+        "error_type": "word_choice"
+      },
+      {
+        "original": "because it looks up important to understand why people must have good action in the community",
+        "corrected": "because it is important to understand why people must have good actions in the community",
+        "error_type": "grammar"
+      },
+      {
+        "original": "when childern have good attitude",
+        "corrected": "when children have a good attitude",
+        "error_type": "spelling"
+      },
+      {
+        "original": "With this reason, understanding about theory of good attitude is important to support being children of good attitude in the long term",
+        "corrected": "For this reason, understanding the theory of good attitude is important for supporting children in developing a good attitude in the long term",
+        "error_type": "grammar/word_choice"
+      },
+      {
+        "original": "On the other hand, the parents who have role to show their children are more essensial",
+        "corrected": "On the other hand, parents who have a role to show their children are more essential",
+        "error_type": "spelling"
+      },
+      {
+        "original": "because they can teach through practice. And then, it can give more effect to obtain many friends",
+        "corrected": "because they can teach through practice, which can have a greater effect on helping children obtain many friends",
+        "error_type": "grammar"
+      }
+    ]
+  },
+  "a3_elapsed_s": 1.7,
+  "a4_synthesized": {
+    "overall_score": 4,
+    "summary": "You did well in presenting a clear thesis statement, providing relevant examples, and discussing both views on the topic, but consider improving your argumentation depth, sentence variety, and language accuracy.",
+    "structure_feedback": "You effectively used transitional phrases to connect ideas and provided a clear introduction and conclusion. However, consider starting with a hook to grab the reader's attention, clearly stating the thesis statement in the introduction, and dividing body paragraphs more clearly. Additionally, use more varied and sophisticated transitional phrases to enhance the logical flow of your essay.",
+    "content_feedback": "Your essay presents a clear thesis statement, provides relevant examples to support the argument, and discusses both views on the topic. To improve, delve deeper into the complexities of the issue, provide more nuanced arguments, and consider including counterarguments to strengthen your essay. Ensure that you stay focused on the topic and address the prompt directly.",
+    "language_feedback": "While your essay demonstrates a good effort in using academic language, there are areas for improvement. Focus on enhancing your grammar, vocabulary, and sentence variety. Pay attention to word choice, grammar, and spelling errors, such as those identified in the error annotations. Practice using more sophisticated sentence structures and vocabulary to convey your ideas clearly and effectively.",
+    "priority_actions": [
+      "Revise your introduction to include a hook that grabs the reader's attention and clearly states the thesis statement",
+      "Delve deeper into the complexities of the issue and provide more nuanced arguments to enhance argumentation depth",
+      "Review and edit your essay for language accuracy, focusing on grammar, vocabulary, and sentence variety"
+    ]
+  },
+  "a4_elapsed_s": 1.5,
+  "a5_moderated": {
+    "moderated_feedback": {
+      "overall_score": 4,
+      "summary": "You did well in presenting a clear thesis statement, providing relevant examples, and discussing both views on the topic. To further improve, focus on enhancing argumentation depth, sentence variety, and language accuracy.",
+      "structure_feedback": "You effectively used transitional phrases to connect ideas and provided a clear introduction and conclusion. Consider starting with a hook to engage the reader, clearly stating the thesis statement in the introduction, and dividing body paragraphs for better clarity. Using more varied and sophisticated transitional phrases can also enhance the logical flow of your essay.",
+      "content_feedback": "Your essay presents a clear thesis statement, provides relevant examples to support the argument, and discusses both views on the topic. For improvement, delve deeper into the complexities of the issue, provide more nuanced arguments, and consider including counterarguments to strengthen your essay. Ensure that you stay focused on the topic and address the prompt directly.",
+      "language_feedback": "Your essay demonstrates a good effort in using academic language. To improve, focus on enhancing your grammar, vocabulary, and sentence variety. Pay attention to word choice, grammar, and spelling errors. Practice using more sophisticated sentence structures and vocabulary to convey your ideas clearly and effectively.",
+      "priority_actions": [
+        "Revise your introduction to include a hook that grabs the reader's attention and clearly states the thesis statement",
+        "Delve deeper into the complexities of the issue and provide more nuanced arguments to enhance argumentation depth",
+        "Review and edit your essay for language accuracy, focusing on grammar, vocabulary, and sentence variety"
+      ]
+    },
+    "moderation_log": [
+      {
+        "action": "rephrased",
+        "original": "consider improving your argumentation depth, sentence variety, and language accuracy",
+        "reason": "softened tone for constructive feedback"
+      },
+      {
+        "action": "removed",
+        "original": "While your essay demonstrates a good effort in using academic language, there are areas for improvement",
+        "reason": "removed vague comment and focused on specific areas for improvement"
+      },
+      {
+        "action": "rephrased",
+        "original": "Ensure that you stay focused on the topic and address the prompt directly",
+        "reason": "maintained clarity while avoiding direct command tone"
+      },
+      {
+        "action": "flagged",
+        "original": "Practice using more sophisticated sentence structures and vocabulary to convey your ideas clearly and effectively",
+        "reason": "no change needed, but flagged for potential bias against non-standard writing styles"
+      }
+    ],
+    "moderation_summary": {
+      "changes_made": 4,
+      "tone_issues": 2,
+      "bias_flags": 1,
+      "vague_replacements": 1
+    }
+  },
+  "a5_elapsed_s": 2.0,
+  "total_elapsed_s": 26.5
+}
