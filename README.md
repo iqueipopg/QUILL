@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="assets/banner.svg" alt="QUILL — Quintet of Intelligent LLMs for Learning" width="100%">
+  <img src="assets/banner.svg" alt="QUILL: Quintet of Intelligent LLMs for Learning" width="100%">
 </p>
 
 <p align="center">
@@ -17,11 +17,11 @@ A multi-agent system for automated feedback on student essays. Five cooperative 
 
 Five sequential agents:
 
-1. **A1 Structure** — paragraph organization, logical flow, transitions
-2. **A2 Content** — thesis quality, prompt adherence, evidence
-3. **A3 Language** — grammar, vocabulary, register, with specific corrections (original → corrected + error type)
-4. **A4 Synthesizer** — merges A1–A3 into a student-facing feedback report
-5. **A5 Moderator** — filters harsh/vague/biased phrasing, ensures constructive tone
+1. **A1 Structure**: paragraph organization, logical flow, transitions
+2. **A2 Content**: thesis quality, prompt adherence, evidence
+3. **A3 Language**: grammar, vocabulary, register, with specific corrections (original → corrected + error type)
+4. **A4 Synthesizer**: merges A1 to A3 into a student-facing feedback report
+5. **A5 Moderator**: filters harsh/vague/biased phrasing, ensures constructive tone
 
 ## Quickstart
 
@@ -45,9 +45,9 @@ python export_to_markdown.py
 ## Backends
 
 Configurable in `config.yaml`:
-- `groq` — Groq API (free tier, fast, llama-3.3-70b-versatile)
-- `gemini` — Google Gemini API (free tier, slower per call)
-- `local` — Qwen2.5-7B 4-bit on local GPU (8 GB VRAM sufficient)
+- `groq`: Groq API (free tier, fast, llama-3.3-70b-versatile)
+- `gemini`: Google Gemini API (free tier, slower per call)
+- `local`: Qwen2.5-7B 4-bit on local GPU (8 GB VRAM sufficient)
 
 ## Repo layout
 
@@ -72,7 +72,7 @@ Three conditions compared on the same set of student essays:
 - **B**: QUILL multi-agent pipeline
 - **C**: human expert feedback (LEAF corpus, Behzad et al., NAACL 2024)
 
-Participants rate feedbacks on usefulness, clarity, and specificity (Likert 1–5) plus an overall ranking, with X/Y/Z labels hiding the source.
+Participants rate feedbacks on usefulness, clarity, and specificity (Likert 1 to 5) plus an overall ranking, with X/Y/Z labels hiding the source.
 
 ## Context
 
