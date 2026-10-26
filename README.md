@@ -79,3 +79,7 @@ Participants rate feedbacks on usefulness, clarity, and specificity (Likert 1 to
 Developed for EDU3049-01 *AI Applied Education Theories and Implementation*, Sogang University, Spring 2026.
 
 Authors: Ignacio Queipo de Llano Pérez-Gascón, Do-gyu Ha, Sergi Prieto Oliveras, Minjae Lee.
+
+## License
+
+The code is released under the [MIT License](LICENSE).
